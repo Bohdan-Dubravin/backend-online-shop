@@ -1,0 +1,51 @@
+20221026	08:15:17	7e961fd8-f9a8-4a65-8af7-9e3b7a4d7547	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
+20221026	08:15:29	94c3feed-40b4-4f72-9a55-7e880d1d1f4b	Error: Illegal arguments: number, number	POST	/auth/register	undefined
+20221026	08:22:57	f1b8d659-9ed5-49eb-8b0a-0a53d3ffe23a	TypeError: registerValidation is not a function	POST	/auth/register	undefined
+20221026	08:24:24	7b254b8d-5598-4df5-b921-c2fc6d6e3eac	TypeError: registerValidation is not a function	POST	/auth/register	undefined
+20221026	08:26:46	d173d0f9-f569-4dcb-9c1e-edcbee86039e	Error: Illegal arguments: number, number	POST	/auth/register	undefined
+20221026	08:27:05	ffb9670e-dd3a-4bc2-bb29-ec535414089c	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
+20221026	08:27:56	dbf0b485-ee0d-4829-adf4-c32fe17ae7dc	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
+20221026	08:28:45	3c001c78-c119-4843-8829-19ce609e0bdd	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	08:28:53	36b1bd14-f341-4dce-a956-ad789cf18add	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	08:28:58	7f37f1b2-6ea8-4bea-acb6-6f83131e5fc3	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	08:29:01	2e1270d2-9a1b-41a7-aed8-4609354be039	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	08:29:05	f24fc434-2fd6-4c65-90bf-6e1d049eb255	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	08:30:21	46f414ec-b375-4f6d-8484-d4151b243472	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	22:36:39	8f90f241-9095-4b48-9140-ebbba1e1823a	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	22:38:36	be8a68bb-c9ab-43bf-8662-8742e19d8c5c	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:38:38	3f191368-e83d-4c62-aa57-c90cac7faeb1	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:41:58	52f05584-503a-434f-ad11-064b34473ac9	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:43:09	f1797d2f-5b8c-45c9-946d-e089f3df82ac	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:43:11	3a09fc14-1fde-494e-ba60-5e91d144c4fa	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:44:09	d7b129f7-21e3-4ad3-9bde-210bfe4af456	Error: 	POST	/auth/login	undefined
+20221026	22:44:18	01a1422f-aa71-46cb-b97c-4823b5772bc6	Error: 	POST	/auth/login	undefined
+20221026	22:44:52	aff8f0be-22bf-4e1c-bf17-b8905b2e588e	Error: 	POST	/auth/login	undefined
+20221026	22:45:17	a04a5835-dc4c-49a9-9bd8-1450f42dac94	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:57:22	8eb6e479-d673-445e-8723-f44c7501b285	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:58:00	4d4d9a46-e19f-4d02-a8de-e77a3da1fc60	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:58:22	566d3ecc-598d-4550-b7a3-7b354baad1f6	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	22:58:25	95e602e6-5583-42e2-80f5-bf73229d7e8c	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	22:59:44	14e0e8ce-6290-4782-b6df-18c773d6b860	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	23:01:46	557d2f92-80e0-45c9-b380-0279f03f854f	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	23:03:52	cfbc9e30-b968-4a72-907b-5dd5d2dba749	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	23:05:29	3a9cddee-6cd5-4f28-9a91-0434db7a78de	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	23:05:33	0d080d38-77da-4550-8d2d-0c05680e85b3	ReferenceError: message is not defined	POST	/auth/register	undefined
+20221026	23:06:50	0b09c0fb-cdb6-4919-909a-1f64ed37868a	ReferenceError: message is not defined	POST	/auth/login	undefined
+20221026	23:09:25	fb9c2c93-48d5-4c39-8511-e9bea440cdfe	ReferenceError: errors is not defined	POST	/auth/login	undefined
+20221026	23:09:39	593e8767-88d9-4ec0-9943-045227258001	Error: 	POST	/auth/login	undefined
+20221026	23:09:42	bf4a9cdb-9a8d-45fb-a801-c4f828c7ecf3	Error: 	POST	/auth/login	undefined
+20221026	23:10:36	8235d8d6-a595-4ee4-8e98-66d3169f1bc4	Error: 	POST	/auth/login	undefined
+20221026	23:12:55	1db264c5-91c3-44b9-bf2f-68eb9506f3db	Error: Invalid password	POST	/auth/login	undefined
+20221026	23:14:16	8ce11bdb-578d-40b7-aa66-b765a63d1213	Error: User already exist	POST	/auth/register	undefined
+20221026	23:14:27	bc3f4e08-fdb3-41f9-9483-5300db481de1	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221026	23:14:56	3ea1c514-7ba2-45f9-88bf-1972a2e8bf31	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221026	23:21:33	c0ad78ef-ad66-4be0-8583-cb5faf941ef7	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221026	23:21:56	6acb21da-a68b-4ca8-95f6-6ab1ddd4a042	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221026	23:24:17	e7c06a5a-bf0b-46ac-83f3-ae3ab05d1e5a	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221026	23:24:20	c4597ff0-2dff-4b2a-b204-313fab8b7bdf	Error: User already exist	POST	/auth/register	undefined
+20221026	23:24:35	35846d10-54c0-41fd-bb17-d087e4633121	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221027	21:59:47	bcd6fce4-e441-4df8-a277-264160e07f19	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221027	22:03:52	8eb6c164-1531-420d-a79d-9cced53a3d92	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221027	22:08:01	a93a2136-4ad1-491f-9d3d-b59a844cc43d	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
+20221027	22:11:37	01f8b57b-6a40-49fe-9909-b408c76f8911	Error: Invalid password	POST	/auth/login	undefined
+20221027	22:11:45	b0027e8f-de4b-4291-8a5d-ddd780076e29	Error: User does not exist	POST	/auth/login	undefined

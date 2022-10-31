@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import { connectDB } from './config/dbConnection.js';
 import authRouter from './routes/authRoute.js';
 import cookieParser from 'cookie-parser';
+import postRouter from './routes/postRoute.js';
 
 connectDB();
 const app = express();
@@ -15,6 +16,7 @@ app.use(cors());
 app.use(cookieParser());
 
 app.use('/auth', authRouter);
+app.use('/posts', postRouter);
 app.use(errorHandler);
 
 mongoose.connection.once('open', () => {

@@ -41,6 +41,7 @@ class TokenService {
   async validateAccessToken(token) {
     try {
       const userData = jwt.verify(token, process.env.JWT_ACCESS_SECRET);
+      console.log(`AUTH MIDDLEWARE ${userData}`);
       return userData;
     } catch (error) {
       return null;

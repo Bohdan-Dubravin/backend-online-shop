@@ -1,7 +1,8 @@
 import { Router } from 'express';
 import authController from '../controllers/authController.js';
+import checkAuth from '../middleware/checkAuth.js';
 import loginLimiter from '../middleware/loginLimit.js';
-import { registerValidation } from '../validations/authValidation.js';
+import { registerValidation } from '../validations/Validations.js';
 
 const authRouter = new Router();
 
@@ -11,9 +12,9 @@ authRouter.post(
   registerValidation,
   authController.register
 );
-authRouter.post('/login', authController.login);
+authRouter.post('/login', loginLimiter, authController.login);
 authRouter.post('/logout', authController.logout);
 authRouter.get('/refresh', authController.refresh);
-authRouter.get('/getUsers', authController.refresh);
+authRouter.get('/users', checkAuth, authController.getUsers);
 
 export default authRouter;

@@ -96,6 +96,12 @@ class AuthService {
 
     return { ...tokens, user: userParam };
   }
+
+  async getAllUsers() {
+    const users = await User.find();
+
+    return users;
+  }
 }
 
 export default new AuthService();

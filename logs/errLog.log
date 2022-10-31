@@ -49,3 +49,7 @@
 20221027	22:08:01	a93a2136-4ad1-491f-9d3d-b59a844cc43d	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
 20221027	22:11:37	01f8b57b-6a40-49fe-9909-b408c76f8911	Error: Invalid password	POST	/auth/login	undefined
 20221027	22:11:45	b0027e8f-de4b-4291-8a5d-ddd780076e29	Error: User does not exist	POST	/auth/login	undefined
+20221029	15:42:46	9552371c-a0dc-4072-9ee4-6905a501b70c	Error: Unathirized	GET	/auth/users	undefined
+20221029	15:50:46	9a395671-42c2-41a6-9a84-ea5618a4bb53	Error: Unathirized	GET	/auth/users	undefined
+20221029	15:51:01	673d3737-ee95-45d4-b524-40d3c94270f3	Error: Unathirized	GET	/auth/users	undefined
+20221029	15:51:27	e3930e8d-b6ef-453a-a3bd-941fbdf0a4be	Error: Unathirized	GET	/auth/users	undefined

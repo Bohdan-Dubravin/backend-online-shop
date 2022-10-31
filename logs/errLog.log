@@ -53,3 +53,33 @@
 20221029	15:50:46	9a395671-42c2-41a6-9a84-ea5618a4bb53	Error: Unathirized	GET	/auth/users	undefined
 20221029	15:51:01	673d3737-ee95-45d4-b524-40d3c94270f3	Error: Unathirized	GET	/auth/users	undefined
 20221029	15:51:27	e3930e8d-b6ef-453a-a3bd-941fbdf0a4be	Error: Unathirized	GET	/auth/users	undefined
+20221031	14:38:49	91d9afa5-7ffb-4baf-afa0-5b2a7d053d59	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:39:48	1d3b7a40-445b-48d6-99a2-0dd2ea83061d	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:39:49	d664a61d-15c7-4088-8395-99dcb7afb2e8	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:40:57	bf6ae2f0-ef45-4ff7-a345-f68f3b384dee	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:42:01	d8a2f661-3434-4700-a1e4-aa82ddcd1cbc	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:42:39	4eb4d3a5-11c3-4bb3-81d9-60f0ce828860	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:43:43	c1844ab9-389a-4986-913f-2dc450dc2403	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:43:57	678e22b8-cbec-4f15-8817-83c0a1ab31db	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:44:02	583c31e5-9642-437e-93f6-4f329f51cee6	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:44:09	ccfbc964-51fd-43ea-9ac6-f441a36ee043	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:44:19	a0f6eb89-5fb9-46f3-b9e7-adafcba3b349	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:45:15	8808ea2f-7ced-4580-955d-cce2b3fbb94b	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:45:40	ce37f433-28ea-4dbe-8557-4fd3475f048b	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:46:20	d07aeff8-45e6-4cb6-87df-05bf0162a35b	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:47:16	573bbed4-8535-4de3-ac3c-f356a6d46ec3	Error: Validation error	POST	/posts/create	undefined
+20221031	14:47:35	ec2a1223-4ab2-4d2f-ac59-9d5e43816cc8	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:48:22	4fcffd72-0f2f-4dc7-8fae-0e3778ad0173	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:54:20	583ef91e-b394-42dd-9a69-b95a96438d69	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:55:05	fe885cd7-a2de-4c87-8cd3-7164f0f02189	Error: Required all fields	POST	/posts/create	undefined
+20221031	14:55:06	696438a6-4234-4f38-9eee-23de3a44e58b	Error: Required all fields	POST	/posts/create	undefined
+20221031	15:16:51	974d1ed8-79a5-494b-8e3e-41ad0a052b38	Error: Unathirized	POST	/posts/create	undefined
+20221031	15:18:12	715c4a56-9249-4d95-975c-d7d9e7fd00b8	Error: Unathirized	POST	/posts/create	undefined
+20221031	15:24:31	8790d7bf-6e04-48ad-8dee-6d074f5f08d6	Error: Unathirized	POST	/posts/create	undefined
+20221031	15:24:56	178050a0-233f-4a0e-b92f-f107d3b84b5b	Error: Unathirized user	POST	/posts/create	undefined
+20221031	15:25:28	25c755aa-d929-42f3-a6ca-ca9416b094f7	Error: Unathirized user	POST	/posts/create	undefined
+20221031	15:28:30	62566ac2-f88e-4985-a0a4-a6cfce07ab2f	Error: Unathirized user	POST	/posts/create	undefined
+20221031	15:28:32	93e76453-bbbb-4ff1-b385-2abc6e991f49	Error: Unathirized user	POST	/posts/create	undefined
+20221031	15:28:45	ce7383e5-2ecb-431f-aa63-b128a7727b54	Error: Unathirized user	POST	/posts/create	undefined
+20221031	15:33:27	35f7e03d-2223-48f7-9f00-2ad36baafcde	Error: Unauthorized user	POST	/posts/create	undefined
+20221031	15:34:20	2b1e853e-6ca9-42fa-b816-6ab750fe3ad6	Error: Unauthorized user	POST	/posts/create	undefined

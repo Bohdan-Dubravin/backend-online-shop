@@ -1,14 +1,14 @@
-import { Router } from 'express';
-import authController from '../controllers/authController.js';
-import checkAuth from '../middleware/checkAuth.js';
-import loginLimiter from '../middleware/loginLimit.js';
+import { Router } from "express";
+import postContoller from "../controllers/postContoller.js";
+import checkAuth from "../middleware/checkAuth.js";
+import { postValidation } from "../validations/Validations.js";
 
 const postRouter = new Router();
 
-postRouter.get('/posts', authController.refresh);
-postRouter.post('/create', checkAuth, authController.register);
-postRouter.post('/update/:id', loginLimiter, authController.login);
-postRouter.delete('/delete/:id', authController.logout);
-postRouter.get('/users', checkAuth, authController.getUsers);
+postRouter.get("/", postContoller.getAllPosts);
+postRouter.get("/:id", postContoller.getPost);
+postRouter.post("/create", checkAuth, postValidation, postContoller.createPost);
+postRouter.patch("/update/:id", checkAuth, postContoller.updatePost);
+postRouter.delete("/delete/:id", checkAuth, postContoller.deletePost);
 
 export default postRouter;

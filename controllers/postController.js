@@ -1,4 +1,5 @@
-import postService from "../services/postService.js";
+import postService from '../services/postService.js';
+import ApiError from '../utils/apiError.js';
 
 class PostsController {
   async getAllPosts(req, res, next) {
@@ -15,7 +16,11 @@ class PostsController {
       const { id } = req.params;
 
       const post = await postService.getPost(id);
-      console.log(post, "outsidefinction");
+
+      if (!post) {
+        throw ApiError.BadRequest('Post not found');
+      }
+
       res.status(200).json({ post });
     } catch (error) {
       console.log(error);
@@ -44,10 +49,22 @@ class PostsController {
   }
 
   async deletePost(req, res, next) {
+    const { id } = req.params;
     try {
-      const posts = await postService.getPosts(req.id);
+      const post = await postService.deletePost(id);
 
-      res.status(200).json(posts);
+      res.status(200).json(post);
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async updatePost(req, res, next) {
+    const { id } = req.params;
+    try {
+      const post = await postService.updatePost(id, req.body);
+
+      res.status(200).json(post);
     } catch (error) {
       next(error);
     }

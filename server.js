@@ -7,9 +7,11 @@ import { connectDB } from './config/dbConnection.js';
 import authRouter from './routes/authRoute.js';
 import cookieParser from 'cookie-parser';
 import postRouter from './routes/postRoute.js';
+import multer from 'multer';
 
 connectDB();
 const app = express();
+const upload = multer({ storage });
 app.use(express.json());
 app.use(logger);
 app.use(cors());

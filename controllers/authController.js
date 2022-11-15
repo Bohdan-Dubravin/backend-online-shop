@@ -6,10 +6,6 @@ import ApiError from '../utils/apiError.js';
 class AuthController {
   async register(req, res, next) {
     try {
-      if (req.body.role !== 'user' && req.body.role) {
-        verifyAdmin(req);
-      }
-
       const validation = validationResult(req);
 
       if (!validation.isEmpty()) {

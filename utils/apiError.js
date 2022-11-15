@@ -9,10 +9,14 @@ export default class ApiError extends Error {
   }
 
   static UnauthorizedError() {
-    return new ApiError(401, "Unauthorized user");
+    return new ApiError(401, 'Unauthorized user');
   }
 
   static BadRequest(message, errors = []) {
     return new ApiError(400, message, errors);
+  }
+
+  static NotFound(message, errors = []) {
+    return new ApiError(404, message ||'Not found', errors);
   }
 }

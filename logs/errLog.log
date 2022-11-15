@@ -83,3 +83,61 @@
 20221031	15:28:45	ce7383e5-2ecb-431f-aa63-b128a7727b54	Error: Unathirized user	POST	/posts/create	undefined
 20221031	15:33:27	35f7e03d-2223-48f7-9f00-2ad36baafcde	Error: Unauthorized user	POST	/posts/create	undefined
 20221031	15:34:20	2b1e853e-6ca9-42fa-b816-6ab750fe3ad6	Error: Unauthorized user	POST	/posts/create	undefined
+20221108	20:50:22	35a53067-ff7b-4baa-a13e-9ba5c993359b	Error: Unauthorized user	PATCH	/posts/update/635fc5f7b05a778655c8d7c7	undefined
+20221108	20:50:42	47e48378-7660-46c2-89e1-7a28815d688f	Error: Unauthorized user	PATCH	/posts/update/635fc5f7b05a778655c8d7c7	undefined
+20221108	20:51:02	ee7e7a09-a649-4258-9c1c-1d9890be1836	Error: Unauthorized user	PATCH	/posts/update/635fc5f7b05a778655c8d7c7	undefined
+20221108	20:51:45	c55d9566-0020-44a9-8a49-8afd64de1f65	Error: Unauthorized user	PATCH	/posts/update/635fc5f7b05a778655c8d7c7	undefined
+20221108	20:53:18	b865da22-d496-442f-9531-f8bca01d8bd8	Error: Unauthorized user	POST	/items/create	undefined
+20221110	07:35:22	6a50c26e-b590-4f88-a614-5784546d04e0	MongoServerError: E11000 duplicate key error collection: blog-app.items index: title_1 dup key: { title: "New cool PC2" }	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	07:45:29	c16117e4-7c71-4e7c-91a9-54b080776a35	MongoServerError: E11000 duplicate key error collection: blog-app.items index: title_1 dup key: { title: "New cool PC2" }	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	07:58:38	d35cdda7-2911-420c-aa30-e9ef57ed0ed7	Error: Can't update post	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	07:59:04	b42d8678-9453-46c4-86b6-5892a44932df	Error: Can't update post	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	07:59:41	1d0d6af6-e34f-4c65-acfd-60274c359bde	Error: Can't update post	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	08:00:45	5a014cd0-1f47-4e35-8388-4828723d7613	MongooseError: Callback must be a function, got [object Object]	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221110	08:01:53	7ba07ae1-fcca-44fe-91e0-e567c6131421	CastError: Cast to ObjectId failed for value "636aa68da23f6ba494ed5e4" (type string) at path "_id" for model "Item"	PATCH	/items/update/636aa68da23f6ba494ed5e4	undefined
+20221110	08:03:09	20e1709a-93f1-4180-a5ac-2cd6625ad3b6	Error: Item not exist	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221110	08:03:30	fcca16c4-f1d0-44fd-883f-554d6868beba	Error: Item not exist	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221110	08:03:43	455b45f0-b53f-457e-8ce8-27874030cd88	Error: Not found	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:16:55	ef6f1d1e-1ebc-48ef-a736-1b96b830a21f	Error: Unauthorized user	PATCH	/posts/update/635fc5f7b05a778655c8d7c7	undefined
+20221112	13:19:30	da1d21a3-84ca-4530-99e4-966c9199c673	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:20:11	786f7e72-39e3-494c-b288-9a650d0b9794	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:20:26	5d83d6c8-c0cc-4273-bcfa-d75b4fc63c6e	ReferenceError: jwt is not defined	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:20:57	43c3b52d-f95b-43c5-b041-e276b25a1123	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:21:08	ab6d8c1b-f6e4-44c0-a95c-68f64ce56899	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:23:33	832c3593-4b9c-45a7-8732-301e25351c67	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:24:22	0b02b695-7326-48ba-8465-905feb7bf55d	TypeError: Cannot read property 'role' of undefined	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:26:44	6059af6f-70be-4f5e-aebb-1d4fb74713d5	Error: Not found	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:34:01	2b979f19-5e36-4725-8e51-30b10b0461dc	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:36:27	179cf3ed-fc27-4557-9847-38738ea0c917	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	13:37:15	b904ace6-f69a-48e0-b3ce-0a0f1a8df1ee	Error: Validation error	POST	/auth/register	undefined
+20221112	13:37:22	591a5ce4-24f2-494a-a08c-4b5e9fe2e017	Error: Validation error	POST	/auth/register	undefined
+20221112	13:46:14	b6704d88-97de-4d8d-b9e7-b3adfe5a9668	Error: Validation error	POST	/auth/register	undefined
+20221112	14:39:01	b1700d6b-2144-482b-8599-bee18f61f7fe	Error: Validation error	POST	/auth/register	undefined
+20221112	14:39:19	e7ebfe91-ede1-4c4a-ab23-98ca48779625	Error: Validation error	POST	/auth/register	undefined
+20221112	14:39:42	226fe0ce-fead-4324-aea8-2b135f082382	Error: User already exist	POST	/auth/register	undefined
+20221112	14:41:08	975d4f3a-e992-4073-a658-6f193a7606de	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:41:16	426d955a-07b9-4e8f-9d27-341931334139	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:42:23	23ff3c51-6fae-436d-8e1e-ba1104070370	Error: User already exist	POST	/auth/register	undefined
+20221112	14:42:59	dfa1ac02-d601-4742-8042-640d9b87891e	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:43:53	4e03205c-6f99-4bc2-8a27-070676b337a7	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:44:20	77796ff7-b28c-408f-a06e-4575072477de	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:44:25	2e56e203-4c2b-4aa2-9d76-2a35e5db0d50	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:44:48	3ba63baf-029e-4ad1-a27f-88ff343d9e50	Error: No permission	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	14:45:12	e4f5dd62-e1b8-4386-9182-4dd569205564	Error: Item not exist	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	20:45:16	f94fcd8e-84e4-4b75-89ec-8827403bc254	Error: Unauthorized user	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	20:45:32	84b49321-5001-40dc-b3ec-b2f12b3e38e2	Error: Item not exist	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	20:45:56	ae966e15-f631-47ea-9d11-9448ef3ec9a0	Error: Item not exist	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	20:49:18	61fcc012-b476-492b-b974-573a909c67eb	ReferenceError: postId is not defined	PATCH	/items/update/636aa68da23f6ba494ed5e41	undefined
+20221112	20:49:42	02678537-1705-486a-8384-4093742f07ea	ReferenceError: postId is not defined	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221112	20:50:15	dac44f2d-0386-4e01-8f3b-6b71d91f1d8e	ReferenceError: postId is not defined	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221112	20:50:27	8fd32bae-7924-4f5e-b402-47cfd028b047	ReferenceError: postId is not defined	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221112	21:09:58	444deb88-4cbd-4c24-8b96-353ace577ec0	Error: Admin Permission required	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+                                                                                                                                                                                                             20221113	08:52:19	dffde572-2ef7-4285-81bd-d9c5e9a169d8	Error: Admin Permission required	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221113	08:53:17	2753e6b7-2e7c-419f-a03f-e06178fa6645	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.items index: title_1 dup key: { title: "cool2 dsdPCdssd23" }	PATCH	/items/update/637094465850e85444bb29b9	undefined
+20221113	08:56:54	809e2616-3af9-4e8c-9e5d-aae470484b66	Error: Admin Permission required	PATCH	/items/update/636aa68da23f6ba494ed5e44	undefined
+20221113	14:21:48	9c692786-3c42-470e-ad95-259ffbe19e42	SyntaxError: Unexpected token } in JSON at position 31	GET	/get	undefined
+20221113	14:21:51	3963c6c0-75c5-45f9-b513-d7846f876bde	SyntaxError: Unexpected token } in JSON at position 31	GET	/get	undefined
+20221113	14:22:07	1eab4cfd-0e7f-4395-86c5-d2ed5eeb6d28	SyntaxError: Unexpected token } in JSON at position 30	GET	/get	undefined
+20221113	14:22:17	ad493de7-f164-4a2a-9b39-348f688d391f	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined
+20221113	14:22:18	c8da6ef3-c833-4c8a-b138-59d5923bed73	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined
+20221113	14:22:19	a8d35847-34a3-45c7-ad1e-7b8155c57c74	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined

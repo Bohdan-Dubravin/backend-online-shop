@@ -1,11 +1,17 @@
-import { logEvents } from "./logger.js";
+import { logEvents } from '../utils/logger.js';
 
-const errorHandler = (err, req, res, next) => {
+const errorLogger = (err, req, res, next) => {
   logEvents(
     `${err.name}: ${err.message}\t${req.method}\t${req.url}\t${req.headers.origin}`,
-    "errLog.log"
+    'errLog.log'
   );
-  console.log(err.stack);
+  // console.log(err.stack);
+  // const status = res.statusCode ? res.statusCode : 500; // server error
+
+  // res.status(status);
+
+  // res.json({ message: err.message, isError: true });
+  next(err);
 };
 
-export default errorHandler;
+export default errorLogger;

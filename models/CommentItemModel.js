@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose'
 
 const CommentItemSchema = new mongoose.Schema(
   {
@@ -10,13 +10,18 @@ const CommentItemSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
-    user: {
+    author: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+    },
+    item: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Item',
       required: true,
     },
   },
   { timestamps: true }
-);
+)
 
-export default mongoose.model('CommentItem', CommentItemSchema);
+export default mongoose.model('comment', CommentItemSchema)

@@ -141,3 +141,32 @@
 20221113	14:22:17	ad493de7-f164-4a2a-9b39-348f688d391f	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined
 20221113	14:22:18	c8da6ef3-c833-4c8a-b138-59d5923bed73	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined
 20221113	14:22:19	a8d35847-34a3-45c7-ad1e-7b8155c57c74	SyntaxError: Unexpected token } in JSON at position 30	POST	/get	undefined
+20221118	10:35:37	816fda1e-9a13-433c-9c21-b0c5dd99c7bd	Error: Required all fields	POST	/auth/login	undefined
+20221118	11:08:05	e31a2409-e479-427e-8db9-521f4170cb20	Error: Required all fields	POST	/auth/login	undefined
+20221118	11:08:29	c2c629b0-91a1-46b5-9903-f359dee189d2	Error: User does not exist	POST	/auth/login	undefined
+20221118	11:28:56	f7d84f8e-c3cf-4059-a8e4-e5e4730cef04	Error: Unauthorized user	POST	/items/create	undefined
+20221118	11:29:15	3c030c26-56d5-4ba4-955d-db96b502daac	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221118	11:29:47	d5a85c3f-5c12-4b5c-b44c-67daafe13dd9	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221118	11:29:51	120fedde-a0ba-498e-853e-d73e0403fd52	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221118	11:30:13	48b32650-7056-407e-a330-0a81e09701d8	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221118	11:32:27	857a3557-a0d1-4779-9a97-88e9d8d768a1	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221118	11:35:14	27eb1d85-ce1a-4229-be6c-372be3aa22da	Error: Unauthorized user	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:40:42	6773b4a1-2e49-4daa-8625-47e1a8375429	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:41:46	213c8f66-5b13-4247-adce-5619b16faea2	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:42:08	f2d80467-fda5-4c98-b724-a6618870456e	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:42:14	ece653a5-6fe7-4565-afba-86c0a606ff15	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:43:12	4474e960-1d73-41a5-b837-dbd56d4a4d3d	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:43:13	4f4c41ff-b45f-4433-b8a0-b996b9cae439	TypeError: CommentModel.create(...).lean is not a function	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:49:00	5c65d475-3ade-4f3d-a142-b6a93633d680	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:49:02	b9573fbd-2af8-4ff7-9df4-f5103c816164	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:49:44	a856d421-36cf-4687-ad36-a097762cb3e9	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:49:47	2d7ff14d-4be5-46c6-8314-399b91f45210	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	11:50:39	9da5fd63-adb7-497b-b087-37f4920aa2b5	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221118	17:41:06	b9f2a8f6-0760-439c-8baa-2e41e6e38424	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:42:55	62cf7157-85c1-4493-8f7b-20aa1770d3f8	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:44:01	61aff760-28c2-4b9f-96a4-d3743ebb2890	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:44:57	6b975be4-a2b1-45ff-ade7-563a75290532	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:47:02	72222ef5-797e-4371-9e25-d29b4acbda25	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:49:03	7666ce6d-5967-40aa-af3f-9877a64fcb1d	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:50:06	0f209d9a-d63f-48cc-8d7e-9399c187a12b	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221118	17:51:12	b9da6c71-70ee-48ef-a185-a51d0ae4d977	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000

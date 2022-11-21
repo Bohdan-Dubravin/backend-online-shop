@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const ItemSchema = new mongoose.Schema(
   {
@@ -10,6 +10,7 @@ const ItemSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
+    images: [{ type: String, default: '' }],
     price: {
       type: Number,
       required: true,
@@ -47,6 +48,6 @@ const ItemSchema = new mongoose.Schema(
     ],
   },
   { timestamps: true }
-)
+);
 
-export default mongoose.model('Item', ItemSchema)
+export default mongoose.model('Item', ItemSchema);

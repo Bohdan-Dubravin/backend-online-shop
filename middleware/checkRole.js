@@ -24,7 +24,7 @@ export default async function (req, res, next) {
       req.body.userId = decoded.id;
     });
     next();
-njht  } catch (error) {
+  } catch (error) {
     next(error);
   }
 }

@@ -170,3 +170,27 @@
 20221118	17:49:03	7666ce6d-5967-40aa-af3f-9877a64fcb1d	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
 20221118	17:50:06	0f209d9a-d63f-48cc-8d7e-9399c187a12b	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
 20221118	17:51:12	b9da6c71-70ee-48ef-a185-a51d0ae4d977	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221120	11:08:36	5667c4d9-ece9-499f-89d0-3ceaf9a24fe7	ValidationError: comment validation failed: title: Path `title` is required.	POST	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	11:31:13	16c59523-d305-451d-8a62-6ca177234db4	TypeError: Cannot read property 'map' of undefined	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	11:31:36	5c9eeabf-9956-4f15-8869-221c4f830415	TypeError: Cannot read property 'map' of undefined	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	11:32:03	9c477980-db6d-45ab-90fa-0b277be46004	TypeError: Cannot read property 'map' of undefined	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	11:32:17	f353c73d-49ad-428a-a301-110866b61094	TypeError: Cannot read property 'map' of undefined	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	11:32:22	c2462f7b-47c7-40c2-b8f0-5b8abd15dcf5	TypeError: Cannot read property 'map' of undefined	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:02:31	d5405600-5544-4bf7-91b6-7f6158a09222	TypeError: postComments.populate is not a function	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:09:40	8e35b887-f59d-463b-8931-34ea71fa8983	TypeError: postComments.populate is not a function	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:10:13	4fa039d3-4662-49aa-a554-a22546733ffc	TypeError: #<Object> is not a function	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:16:23	d6a98d39-36f1-43ff-8f33-777c43660323	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:18:36	662f6e9d-cdf3-467e-b8b0-32b0e9101d45	StrictPopulateError: Cannot populate path `comments.author` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:21:20	eb0c599e-0425-4f4a-a785-36de3424f3a5	StrictPopulateError: Cannot populate path `comments.comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	12:21:27	f78c1ab9-4a9b-49f4-aca2-04706ab9aef4	StrictPopulateError: Cannot populate path `comments.comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637750a55a46e0dde5ed92d3	undefined
+20221120	13:02:49	a6302710-080d-469d-873a-7412d147040c	Error: Unauthorized user	POST	/items/create	undefined
+20221120	13:03:18	ec6cdf0a-ac88-4ba6-9781-b8cc55671cfb	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221120	13:03:48	903de293-eb0f-476a-9ee0-ff87cd989765	ReferenceError: njht is not defined	POST	/items/create	undefined
+20221120	13:04:52	4519e378-a40f-4d71-b9ac-dd909831409a	MongoServerError: E11000 duplicate key error collection: blog-app.items index: title_1 dup key: { title: "new new Nasaew cool PasaCs2" }	POST	/items/create	undefined
+20221120	13:25:37	4f2a3852-943b-4297-986c-8bff46ef2f79	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637a09e12ef452ce78d6cd3e	undefined
+20221120	13:25:39	0b7738f9-119e-44b2-b2ee-53f662b5913e	StrictPopulateError: Cannot populate path `comment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637a09e12ef452ce78d6cd3e	undefined
+20221120	13:26:12	3df4b154-74ea-41e1-b83d-7086d26f1747	TypeError: postComments.populate is not a function	GET	/items/comments/637a09e12ef452ce78d6cd3e	undefined
+20221120	13:26:13	1cdf0eda-135a-48b9-b2a8-77cf2eb06ac7	TypeError: postComments.populate is not a function	GET	/items/comments/637a09e12ef452ce78d6cd3e	undefined
+20221120	13:39:29	e6666178-4f47-432f-a1b3-96db0fcb9c00	StrictPopulateError: Cannot populate path `comment.author` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637a116cca8eb261bd4e64d6	undefined
+20221120	13:43:03	45562df5-f4ff-4e12-89b5-899a56232cbe	MissingSchemaError: Schema hasn't been registered for model "author".
+Use mongoose.model(name, schema)	GET	/items/comments/637a116cca8eb261bd4e64d6	undefined

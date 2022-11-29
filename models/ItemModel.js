@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose'
 
 const ItemSchema = new mongoose.Schema(
   {
@@ -35,6 +35,11 @@ const ItemSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
+    inStock: {
+      type: Boolean,
+      default: true,
+    },
+    rating: [{ type: Number, min: 0, max: 5 }],
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
@@ -48,6 +53,6 @@ const ItemSchema = new mongoose.Schema(
     ],
   },
   { timestamps: true }
-);
+)
 
-export default mongoose.model('Item', ItemSchema);
+export default mongoose.model('Item', ItemSchema)

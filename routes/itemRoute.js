@@ -6,7 +6,7 @@ import checkRole from '../middleware/checkRole.js'
 const itemRouter = new Router()
 
 itemRouter.get('/', itemController.getAll)
-itemRouter.get('/:id')
+itemRouter.get('/:id', itemController.getOne)
 itemRouter.post('/create', checkAuth, checkRole, itemController.createItem)
 itemRouter.patch('/update/:id', checkAuth, checkRole, itemController.updateItem)
 itemRouter.delete('/delete/:id', checkRole, checkAuth)

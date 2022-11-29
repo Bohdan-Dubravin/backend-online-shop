@@ -1,5 +1,4 @@
 import authService from '../services/authService.js'
-import verifyAdmin from '../utils/verifyAdmin.js'
 import { validationResult } from 'express-validator'
 import ApiError from '../utils/apiError.js'
 
@@ -19,7 +18,7 @@ class AuthController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
       })
 
-      res.status(200).json({ userData })
+      res.status(200).json(userData)
     } catch (error) {
       next(error)
     }
@@ -27,7 +26,6 @@ class AuthController {
 
   async login(req, res, next) {
     try {
-      console.log(req.body)
       const foundUser = await authService.login(req.body)
 
       const { password, ...userData } = foundUser
@@ -37,7 +35,7 @@ class AuthController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
       })
 
-      res.status(200).json({ userData })
+      res.status(200).json(userData)
     } catch (error) {
       next(error)
     }
@@ -66,7 +64,7 @@ class AuthController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
       })
 
-      res.status(200).json({ userData })
+      res.status(200).json(userData)
     } catch (error) {
       next(error)
     }

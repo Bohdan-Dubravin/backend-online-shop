@@ -194,3 +194,215 @@
 20221120	13:39:29	e6666178-4f47-432f-a1b3-96db0fcb9c00	StrictPopulateError: Cannot populate path `comment.author` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/items/comments/637a116cca8eb261bd4e64d6	undefined
 20221120	13:43:03	45562df5-f4ff-4e12-89b5-899a56232cbe	MissingSchemaError: Schema hasn't been registered for model "author".
 Use mongoose.model(name, schema)	GET	/items/comments/637a116cca8eb261bd4e64d6	undefined
+20221121	10:31:53	66bb5cd5-a955-4b0f-8325-de07a811ff99	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221121	10:33:47	a58870ac-c898-4549-85f1-97d2c11bfe87	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221121	10:34:34	96eac1ba-3575-4eeb-bebe-4f04b787503f	Error: Illegal arguments: object, string	POST	/auth/login	http://localhost:3000
+20221121	10:42:47	1bae5419-bec0-48c7-8a9f-268906d646ce	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221121	14:25:42	8e7617f5-d327-49d7-9392-151ddb9a62a6	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:26:16	b73da304-da33-46c4-9930-c6858e545c59	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:27:15	7c87ecbf-1067-435a-8ac9-8d3e9e498d15	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:28:27	14c01d4e-9d1b-44d5-b7ad-bac872e2ce63	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:28:42	1284b381-c463-410f-9f04-d62395ff4064	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:31:36	fa4549d7-8f09-4822-9789-7a110125a84d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:33:10	308a14ab-773b-48f7-bfe3-e3a796a49a5f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:34:40	7cea24bc-4acc-4701-afea-2d70e0d3825a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:34:46	2cd33806-96ae-4b1d-bc15-0e8ea2909d82	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:35:07	6c376d20-92ca-42ba-8b51-835dc578b637	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:36:08	dc9fa420-5cea-4068-b863-616bca4b679c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:37:32	a95fe0e5-21fd-4b13-9a54-15d0e1ac41db	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:40:24	05234e59-44c5-4d01-9da4-a5b42f25326e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:41:42	c33b93c5-17ea-4271-8e56-6569a7d33004	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:42:59	576a7d0a-98a6-4252-a6d5-3b2505c3cf7f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:44:04	0b156dc0-799e-42e1-a709-24aa21c02fff	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:45:06	5f3fbad8-d7b4-423c-a57a-e3c0bfd90c25	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:45:22	49a6a67e-8a7f-4e90-b422-691e8943574d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:46:04	625b45ff-f447-4273-ae9f-ed53b4f72238	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221121	14:47:48	e54dbb0d-8607-4c5d-aaa5-ae6247ae035c	TypeError: Cannot read property 'active' of null	GET	/auth/refresh	http://localhost:3000
+20221121	14:49:33	2d19d092-b468-40c9-8048-178c9102ba79	TypeError: Cannot read property 'active' of null	GET	/auth/refresh	http://localhost:3000
+20221121	14:50:01	071d410f-0ebc-4728-b0b0-5e7553f87668	TypeError: Cannot read property '_id' of null	GET	/auth/refresh	http://localhost:3000
+20221121	14:50:22	cd5c4377-4eb0-49cf-bfb7-23698caa6749	TypeError: Cannot read property '_id' of null	GET	/auth/refresh	http://localhost:3000
+20221121	14:51:36	3537421d-5111-4095-a801-e1880401910a	TypeError: Cannot read property 'active' of null	GET	/auth/refresh	http://localhost:3000
+20221121	15:44:00	e6f72a01-1fde-448f-87b0-a4d129332cb1	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:44:01	08ed8b1c-bb65-42ca-9f63-1c3c3094f297	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:44:02	3db89f6d-fb2e-4b70-b9e7-12610556d5d7	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:45:12	995a1b9f-4a76-488f-a06a-963160f1cfbe	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:45:15	08074374-dcbf-4868-8287-b9a84c2d612d	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:45:26	18d1e80a-52c4-4a74-9dc8-50d6fc36c2a1	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221121	15:48:19	5e25c68b-0b1a-4080-abe2-c9313db10302	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221121	15:51:02	26eeb311-dbf5-45e2-99bb-bbdb9c64e517	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:51:52	83723732-8105-4988-9bde-9692eec5f94b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:52:26	b89ba344-9476-48f7-abc8-4972786bf055	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	15:54:25	b851a1c3-9ebd-4002-af89-da41a81fe0b1	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:13:00	664a4efc-714d-411c-8611-44304332429b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:14:09	b8afcccb-5b39-4b93-af12-d3569da8481b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:14:54	0433b68f-a486-4710-aee9-c873690e7907	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:17:22	95213e98-22ee-4800-889a-318782ddc607	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:17:56	7be3ba21-1202-4d6c-8ce6-10756e71aa6b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:20:34	54201c02-dbf5-43d8-9072-9cc3ce22b48b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:21:58	d3aa96a1-5b68-42a4-b9c9-8c736639b7b7	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:22:29	ae9f37ed-f39f-4af8-9371-a96ec33e5427	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:22:48	9cfe9de7-1834-4c69-bb35-6f2648b9644e	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:23:41	41d172a5-43a1-43b2-a2e3-3fffd26aefc9	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:23:42	05d6a647-6f2f-4bc2-9d65-5a0992373842	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:25:35	795c316b-2b92-4865-a8cb-a5c747ccca7a	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:26:04	d511322a-678f-423f-bf10-29eedd5f84e6	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:30:04	cfbbbe2d-f4ee-4b3e-9072-1d0d94f1f330	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:31:03	317b3434-8cf7-495f-88f0-8a52fa6a6ef3	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:31:53	52a16d33-cc99-4e76-bc74-1f7d418009c2	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:32:01	ac8827ef-0dbe-409f-b494-2411d4e71ca6	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221121	16:55:05	47694416-3ab5-4ff0-9a57-c1140a63c169	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:57:11	47afb3d1-4543-4152-bd4d-d4bb6c3ee9d2	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:57:12	0c12444c-1d9b-4961-bfcc-eaefa7f86b40	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:57:15	283da8fb-6a19-4784-a353-6e870df40c40	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:57:53	ba6204c7-009b-446b-a7d8-b0f81adb7195	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:59:43	0601d5b6-b494-4150-abc0-b4d1d39b8cf5	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	16:59:46	0c48d7b0-ee50-4a61-aa79-7ae434c3f49f	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:00:06	4808cba2-70a7-4cc8-b160-e89103183859	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:04:06	82e79e0e-9a67-41b8-b6a8-c131c16792b5	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:05:15	1c956b53-5bd1-49c3-ac7f-d9d5a7198920	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:06:05	b0dc54f8-1b0d-47ee-934a-4f5416e145e6	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221121	17:07:39	ee444230-5baf-413f-9a4e-26b28ef7a135	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:07:59	1c1b4d28-cd7f-4e79-8c87-f84ca466a7f8	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:16	a2a4ba32-d851-47e3-aca0-3c5c2c9e783c	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:17	85ac183d-1274-47cb-8678-63e0eb6cc7b2	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:18	44380e33-62f1-44cf-af7a-49223da24d55	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:42	6a7cdade-f045-4a9a-a2b0-10e3627cfcf5	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:43	42712f2b-93f5-4ae9-a13a-a053204be30c	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:46	1c8a2016-1fbb-4163-9a72-c03d3d0f0354	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:13:51	9be34b6d-1c7d-4023-aaec-55847bba952c	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/login	http://localhost:3000
+20221121	17:16:46	53002c08-77b7-4954-9c69-a4eedc3ca366	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:17:18	252c6c4e-8ea1-443a-9e4c-0ae4c1aaf716	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:17:21	0141fd4f-315b-4f6f-80b7-b20d3c72b2df	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:17:24	cb2b54a6-337a-4df4-b280-8738cee8f2f9	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221121	17:17:50	2a16940e-55cd-409f-9485-d176590c6a9b	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221121	17:18:06	7bfb8e91-d9a9-482c-979b-8d1d5594313b	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221121	17:20:07	f9e54352-6158-4759-a22a-96d027bb4fa4	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:21:56	88c1b89d-c4b0-4fd1-bb09-f8f821c8256d	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:22:23	f271ccd5-3bd0-4939-9478-b74cff37c0be	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:22:26	98d4f9c8-6f57-49d3-99d2-a61c1e5fd3ae	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:22:29	9a354fe5-ffbb-4c0e-9271-419c0c17cbad	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:23:43	9788d48a-a6cd-496d-8f7f-20a1a64d6e37	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:23:45	481e12cd-022d-41bf-aa5b-9124de1f6ac1	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:23:46	93ca73c0-eeec-4350-9242-6b355818b666	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221121	17:24:06	cb0d8705-7685-4eae-921b-9fb12e0dcfbf	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/login	http://localhost:3000
+20221121	17:24:07	b682fd0d-9e58-412d-8b9f-fcfe6dfb22a9	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/login	http://localhost:3000
+20221122	10:19:07	f6638dae-a9c0-4e92-bc9e-768b9827be9d	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	11:48:44	81c2a8cd-93ab-47fb-a748-c2bdb8ea2d05	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	11:49:36	01087464-5728-4a11-90ef-cd910f2e041c	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221122	11:52:16	719da1d1-3682-4258-8777-2e00c16f25a0	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221122	11:54:49	472bc18c-6d79-4ed0-ab44-6955dfa72e9f	Error: User does not exist	POST	/auth/login	undefined
+20221122	11:55:08	f966e463-cbd6-4caa-afc4-1cec83d1c405	Error: Invalid password	POST	/auth/login	undefined
+20221122	11:55:49	1c8f1387-a4dd-497f-b21d-08cbaa28c7ac	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	11:55:52	17177340-466c-4a79-8fd8-0b67006fbf2e	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	11:57:17	a40b82fd-f5e4-4a2e-83ce-3f5e3f16a635	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	11:57:18	81cca9a5-6c08-43b9-aec0-351933e5f581	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	11:57:32	af2f723c-50fc-407e-96bb-e80f95b3c97e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	11:57:32	3d44b535-e971-402b-80ac-92d5988e7700	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	11:57:54	deab04e2-e6a7-44aa-923a-026e62a735fc	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	11:57:57	fc6d462a-e273-48cf-a14c-f571fc93d715	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:01:20	8f593c80-f1fe-4fde-9451-c1c4094026e0	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:01:29	86ac428d-dfca-4032-9b8c-2a034b4fe32d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:01:32	31301ff1-239e-4c4c-9cd6-3cbfc73fa6a5	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:01:50	f99750a1-24cc-4b5d-b603-9040c1502a54	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:01:55	e39678c7-9337-489c-9770-1dffdea2fe26	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:04:17	216eb255-c0c5-4c7e-9279-5b6f3e86cb0f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:04:18	0cb5cf4f-7716-4e7f-a70b-30eed719d670	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:04:27	c46db9eb-9630-488a-a73d-f29a7334d44d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:04:28	41502512-70a6-4068-81a9-b6463f87bbff	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:05:21	f0e2675f-6243-4c95-a6b6-accb08a1712a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:05:22	063e3da6-5912-4638-bca1-aa685ffe77d3	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:06:09	f5492c4a-1f9f-42e8-b108-a49e01a97c41	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:06:11	b0e83bca-cee1-4fec-9c06-acfd74b025fd	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:06:23	c63a348e-10eb-4338-bd5f-827e0f5382f9	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:06:55	02c55ad3-0337-442f-a25c-03a6cbeafa23	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:06:56	ad6891e4-99f1-4e6e-8db3-f3075e6deaa4	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:07:19	37ec5a2c-dce6-49cb-888b-4ff9c1bffc32	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:07:21	05426ad5-9abf-4da5-aed9-bafdaaeed64a	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:08:06	01fc2312-fda9-4934-a958-07adddc48da8	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:11:46	98456022-a540-441e-a584-76c9c161b935	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:12:01	8e8d85fe-b505-4c41-8390-166da98b1ee7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:12:58	9c8a6e32-1a3c-4a2c-a2d3-153af1a0636a	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:12:58	44076db0-637d-4dfa-9626-18d6e134bca3	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:14:11	ed92d1a7-b0a3-45ad-9141-ffbd1b577e5a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:14:12	ca4a1748-65d8-4bf7-920a-b87ef1ed2e4a	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:15:16	dc11904f-9021-4ae8-8fab-32947b023354	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:15:17	3f548666-0eb4-48f4-a72a-c3cc058c64bf	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:15:24	9d11b7a8-20eb-4d20-a9ab-4954c285f727	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:15:27	2b7f90a5-64ff-43e3-85e3-bd859b956ace	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:15:50	e83750f7-60db-440f-976a-a63d9b596169	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:15:58	44adff03-ea8a-4066-a557-df60c2a77d43	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:23:13	0d89b205-4ce8-4421-a5e9-48a47f53d1bd	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:23:13	912d2a52-4fd2-437d-bc1e-9f4a1b92f808	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:23:38	7d341c11-015f-406e-88eb-aa2f117da05e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:23:48	246d7ccd-cc45-4aa6-af27-296ccb9e152f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:23:51	f26695c7-97b8-49de-911d-e210a2db2a29	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:24:43	0582f99e-120b-4809-9e9d-82448118f5ae	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:25:26	1abe23f2-7b2c-4e16-8b63-ea539bc498fd	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:25:29	a1424c65-0194-4fc1-8007-bb81dfccd491	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:25:48	0efd7d98-a422-41dd-980e-6c5e2767c9a1	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:25:50	2be41b33-77a7-48ae-9144-db4374d7b2a4	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:26:21	c80e2000-1cb2-48fc-a7a2-10c88903123b	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:27:57	e4d3a878-fd3b-4009-8f21-8c9a0040a201	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:27:58	07e5140f-3b1f-4eed-a678-42288ce1f3c9	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:28:27	b4381331-ce4d-4a8e-b4ad-e84f23966dbd	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:28:27	0a17aa9c-90d4-441d-b6a2-d7416ff32d08	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:28:30	c2f3d99f-b3c5-4a3c-acb1-a5cfe7f11aa1	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	12:28:31	861bc7bd-6c17-481a-8d87-fbf935c8e565	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:28:35	c92959ca-b9f6-4fe6-b894-6ebdfe63e883	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221122	12:28:42	ea2269ce-704f-407b-9741-fdfc4b265a61	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/login	http://localhost:3000
+20221122	12:55:45	d0fcde43-40b5-47ce-ba30-f995d864364a	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	12:56:51	508e70c8-f3a9-4edc-ae66-c4262fbee6ee	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221122	16:53:54	9e8f84ca-91d5-4552-adab-e53e0873067a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221122	16:56:46	78c2dc07-b9ad-4c09-a962-70466d461038	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221123	11:31:27	d0177165-c656-4360-9cff-86aabee67e17	Error: Unauthorized user	POST	/upload	undefined
+20221126	14:48:45	8701d0ab-54c1-4a6b-a0e9-e5cbb2120b7d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/auth/refresh	http://localhost:3000
+20221128	17:39:51	daacc010-eed1-43fa-a9d7-9767b719e2c6	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:40:46	72b82426-387f-4d27-ae83-dbb578bcd68a	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:42:15	aed2ccfe-70ed-43e8-b15b-b7066fe4493b	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:43:53	18f808f8-3a65-4a80-bc3f-0bdf45841895	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:45:26	14569f5f-56cd-410c-8c30-4e531bebc147	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:46:25	9a5517fc-1599-4040-bb8c-ccc819adc1f0	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:49:04	5baf9aeb-96e1-4e17-bae1-8c7a66c0e84e	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:54:12	44c231ee-8392-4274-aac0-cd73a67ba145	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:54:15	ced3d5a9-99e2-48ce-bc2f-fed970ddb02f	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:55:04	3152546c-8587-44dc-9486-cdd2c0e536f8	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:56:21	ebec15aa-649b-4834-bd0c-0be2c40add46	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:57:11	d934f986-3ed1-46e4-90aa-7d59e7704f09	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	17:59:19	8643c264-8898-46f0-9ec1-459912e50fa5	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	18:01:32	ff3cc75d-c33b-47e9-8702-4ec8c8e0d55b	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	18:03:00	3ff1dfc0-e081-4dc7-9a1d-052555cc7b6d	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	18:03:01	8c5ef12b-22b5-4973-998e-ef9ac7a10192	Error: Enter all fields	POST	/items/create	http://localhost:3000
+20221128	19:38:08	9394137e-fc06-4245-83f3-dfe547ee8613	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221128	19:38:11	27567f25-b2f3-4521-9e89-42d605f87586	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221128	19:38:18	8759770e-deea-4b0c-9945-587494378448	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221128	19:40:27	af4a8cb5-eb52-4533-a0c0-9723df6d1498	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221128	19:40:30	9ed7d756-36a9-4b90-a8fc-95344c3564ee	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221128	19:46:54	750a4771-b3e3-44cc-bfd2-a54146d6e23b	Error: Invalid password	POST	/auth/login	undefined
+20221128	19:52:42	686e9a57-c8a5-49d6-8e1e-4cd1edb7714e	ReferenceError: item is not defined	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:56:27	5141169e-a710-44db-813d-dea6388d6d07	ReferenceError: item is not defined	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:56:48	3baa6d1e-cc57-49b1-9f98-99bbccdd79bd	ReferenceError: id is not defined	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:57:36	7cd80d0b-b4a7-4212-9a29-86e0e740d9e3	Error: Admin Permission required	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:58:05	fc6992b8-9969-4f30-a62e-c3c3a63fd503	Error: Admin Permission required	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:59:32	2fdcc1dc-b674-4190-9e65-2a7fab4c92bd	SyntaxError: Unexpected token } in JSON at position 64	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:59:35	3ab6320a-4fd7-4353-8ce6-43d2a0f41542	SyntaxError: Unexpected token } in JSON at position 64	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221128	19:59:38	b0b1515d-ffef-46fd-9ff8-73b4becea9b2	SyntaxError: Unexpected token } in JSON at position 65	PATCH	/posts/update/6384dbd4511763cc9d985869	undefined
+20221129	09:31:41	9e8c2b74-bbd3-4be5-ad86-832b95f4f623	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	10:09:52	b064dd62-6a78-4ffe-ac1e-5b8e862f03f8	Error: Not found	GET	/items/6385b7cb161baa78d1289490	http://localhost:3000
+20221129	10:10:24	1bab2c3b-8577-4324-9421-9ab5d3e01f74	Error: Not found	GET	/items/6385b86e161baa78d1289499	http://localhost:3000
+20221129	13:32:35	40161f3a-c96e-4706-b73b-c1679496a0d0	Error: Post not found	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	13:32:37	c61b5227-4293-436a-99d7-c51fd0fe2d35	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	13:32:37	1f89f7f5-4daf-4a38-8721-103a5f489672	Error: Post not found	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	13:43:20	e0a0487d-2e81-41e6-baa9-6ba9a336c5d8	Error: Post not found	GET	/posts/6385b7ae161baa78d128948b	http://localhost:3000
+20221129	13:43:48	ba6ae958-9c3e-48df-b5e7-9ca5b78cd0a0	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	13:43:48	454b87c3-f56c-4ad0-a755-3493059c6469	Error: Post not found	GET	/posts/6385b7ae161baa78d128948b	http://localhost:3000
+20221129	13:45:11	11c0f956-2038-488b-ad03-7f13a92629f6	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	13:45:11	f57badd9-4d64-404b-a823-f3df7f318374	Error: Post not found	GET	/posts/6385b7ae161baa78d128948b	http://localhost:3000
+20221129	13:47:33	89127abe-a411-4445-a550-10cd7718ff60	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	13:47:33	7b7c6657-d7a3-4c8c-a4e0-1d9fc106c85c	StrictPopulateError: Cannot populate path `User` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6385b7ae161baa78d128948b	http://localhost:3000
+20221129	13:47:48	f626669f-0199-4a3f-b578-2f742f2fdcb5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221129	16:34:49	3f2e13de-6c18-434d-97e0-adf337c3da5d	ValidationError: PostComment validation failed: text: Cast to Number failed for value "fewfewfwew" (type string) at path "text", author: Path `author` is required.	POST	/posts/create/comment/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	16:36:55	a043a1a4-70b7-48d3-b428-92b63dadae85	ValidationError: PostComment validation failed: author: Path `author` is required.	POST	/posts/create/comment/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	16:38:29	8d5ec4f6-5bad-4da5-b712-9272e5de5f71	ValidationError: PostComment validation failed: author: Path `author` is required.	POST	/posts/create/comment/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	16:54:48	dc79d616-33be-4aad-9c12-03074c5f0fa4	StrictPopulateError: Cannot populate path `PostComment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	16:55:12	d2d90fd9-33ad-41f9-96f3-da49f1c3657c	StrictPopulateError: Cannot populate path `postComment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
+20221129	16:56:24	3cb5756e-e21f-4e70-b616-3f03951fb22e	StrictPopulateError: Cannot populate path `postcomments` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000

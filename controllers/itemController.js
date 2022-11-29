@@ -15,7 +15,7 @@ class ItemController {
     try {
       const id = req.params.id
 
-      const foundItem = itemService.getItem(id)
+      const foundItem = await itemService.getItem(id)
 
       res.status(200).json(foundItem)
     } catch (error) {

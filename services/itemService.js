@@ -1,7 +1,7 @@
 import ItemModel from '../models/ItemModel.js'
 import CommentModel from '../models/CommentItemModel.js'
 import ApiError from '../utils/apiError.js'
-import UserModel from '../models/UserModel.js'
+
 
 class ItemService {
   async getAllItems() {

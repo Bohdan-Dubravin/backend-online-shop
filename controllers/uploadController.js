@@ -10,8 +10,6 @@ const upload = multer({ storage })
 
 uploadRouter.post(
   '/',
-  checkAuth,
-  checkRole,
   upload.single('image', (req, res) => {
     res.json({ url: `/uploads/${req.file.originalname}` })
   })

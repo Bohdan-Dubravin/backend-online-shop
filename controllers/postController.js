@@ -82,6 +82,31 @@ class PostsController {
       next(error)
     }
   }
+  async likePost(req, res, next) {
+    try {
+      const { id } = req.params
+      const userId = req.user.id
+
+      const likedPost = await PostService.likePost(id, userId, req.body)
+
+      res.status(200).json(likedPost)
+    } catch (error) {
+      next(error)
+    }
+  }
+
+  async dislikePost(req, res, next) {
+    try {
+      const { id } = req.params
+      const userId = req.user.id
+
+      const likedPost = await PostService.dislikePost(id, userId, req.body)
+
+      res.status(200).json(likedPost)
+    } catch (error) {
+      next(error)
+    }
+  }
 }
 
 export default new PostsController()

@@ -406,3 +406,41 @@ Use mongoose.model(name, schema)	GET	/items/comments/637a116cca8eb261bd4e64d6	un
 20221129	16:54:48	dc79d616-33be-4aad-9c12-03074c5f0fa4	StrictPopulateError: Cannot populate path `PostComment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
 20221129	16:55:12	d2d90fd9-33ad-41f9-96f3-da49f1c3657c	StrictPopulateError: Cannot populate path `postComment` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
 20221129	16:56:24	3cb5756e-e21f-4e70-b616-3f03951fb22e	StrictPopulateError: Cannot populate path `postcomments` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6384dbd4511763cc9d985869	http://localhost:3000
+20221130	15:26:32	248efa8b-18a0-49fa-90f0-78d2842e7633	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	15:26:32	ba9dab6b-e18f-47e3-b042-03a367d80240	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	15:28:35	634bc88e-4454-4709-bf49-0165977f6582	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	15:28:35	5946c26a-0faf-4480-abf0-1254a251815c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	15:29:06	b0b71a17-1763-4e21-be12-f07eacafcf49	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	15:29:06	08b48a8b-e811-4df9-a5ab-bb808e46f439	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	15:35:03	fbaaecef-6f71-4344-a091-15899449a21c	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	15:35:03	cf23471d-97e1-495d-92d3-c165868c6758	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	16:03:02	3dd26bae-5735-4f49-a55a-5bd96371deb2	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	16:03:02	b56b9a64-bfda-4180-a442-d7037f550f9d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	16:03:59	da0c9ddc-fe57-417d-b1c8-919c8a5dc0de	Error: Unauthorized user	POST	/posts/create/comment/6384dbd4511763cc9d985869	http://localhost:3000
+20221130	16:03:59	6ac84c56-3c1f-4dcf-8416-d5fa0fa79bc8	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	16:16:46	07374edb-057b-45bb-bba8-f2331d249623	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	16:16:46	94e92c56-283d-4018-ab09-67f9777b3783	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	16:17:18	1209430b-33b5-4b90-a534-545b80e9f10a	Error: Unauthorized user	POST	/posts/create/comment/6384dbd4511763cc9d985869	http://localhost:3000
+20221130	16:17:18	cef66121-75cf-4700-88ab-b7019f1fc707	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	16:21:56	1cc6df9b-cc18-4a82-89f6-7291a36d5271	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221130	16:33:22	191cd5f4-ce05-4a0d-8338-90b3cbe2dbbc	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:34:24	baa4c803-6077-4320-83e9-730f8f354ff7	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:34:26	2e293195-5989-4824-b17d-7f2bef507630	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:36:20	921cf23c-02be-45d8-aadc-589829ae6bce	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:36:58	7285a135-ba27-4a1b-9acd-5e753faba1e2	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221130	16:37:01	df9637df-4fbd-41c0-8150-a0efa2049cfb	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221130	16:37:02	fc5891f0-cbd3-4e37-af81-3703d2176258	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221130	16:38:47	4a6b52ee-7469-43bf-827f-a3df8a38a190	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:41:19	ea466171-2f3c-4017-bb08-40ef800c7095	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:48:25	5d5aaa2d-8ce0-4bb4-96ce-80696689ebf3	Error: Validation error	POST	/auth/register	http://localhost:3000
+20221130	16:50:09	85aed4e2-e8f9-423e-81f4-ef0c90eeb62e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "dubravin111@gmail.com" }	POST	/auth/register	http://localhost:3000
+20221130	16:52:33	b1fb195a-c11d-42b3-9b0f-4757ddfaadb9	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "dubravin111@gmail.com" }	POST	/auth/register	http://localhost:3000
+20221130	16:54:25	24d38259-e154-413b-b291-97d885048492	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221130	16:58:30	a33d6b02-fd12-479a-9711-b4a1807e4d38	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221130	16:59:11	d814c396-e6fd-4743-8d33-2e81296b1bd8	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221130	17:00:16	b0ef8254-c5b9-48ac-9841-2338609a533d	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221130	17:19:52	97222248-0201-4547-a329-01bf8a5c7793	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	17:19:52	e3f4de2b-bd3b-40a9-b410-4603d30f865f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	17:52:14	d232897b-e29d-40c1-85d0-4b2dda1f2244	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	17:52:14	b4e2f8d7-1437-4fdf-bf60-702839ec946f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221130	17:58:20	9adc83cb-c21a-496f-9a2c-0a2f51b2040b	Error: Unauthorized user	POST	/upload	http://localhost:3000

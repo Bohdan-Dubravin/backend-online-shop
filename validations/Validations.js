@@ -9,7 +9,7 @@ export const registerValidation = [
     min: 3,
     max: 16,
   }),
-  body('avatarUrl', 'Invalid URL').optional().isURL(''),
+  body('avatarUrl', 'Invalid URL').optional(),
   body('role').optional().isIn(['user', 'employee', 'admin']),
 ]
 

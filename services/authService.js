@@ -15,10 +15,14 @@ class AuthService {
       throw ApiError.BadRequest('Required all fields')
     }
 
-    const isExist = await UserModel.findOne({ username }).lean().exec()
+    const isExist = await UserModel.findOne({
+      $or: [{ username }, { email }],
+    })
+      .lean()
+      .exec()
 
     if (isExist) {
-      throw ApiError.BadRequest('User already exist')
+      throw ApiError.BadRequest('User or email already exist')
     }
 
     const hashedPassword = await bcrypt.hash(user.password, 10)
@@ -32,7 +36,7 @@ class AuthService {
       activationLink,
     })
 
-    await mailService.sendActivationMail(email, activationLink)
+    // await mailService.sendActivationMail(email, activationLink)
 
     const userParam = new UserDto(newUser)
 
@@ -40,7 +44,8 @@ class AuthService {
 
     await tokenService.saveToken(userParam.id, tokens.refreshToken)
 
-    return { ...tokens, user: userParam }
+    const createdUser = await UserModel.findById(userParam.id, '-password')
+    return { ...tokens, user: { ...createdUser._doc } }
   }
 
   async login(credentials) {

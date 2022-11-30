@@ -18,5 +18,7 @@ postRouter.post(
 postRouter.patch('/update/:id', checkAuth, postController.updatePost)
 postRouter.delete('/delete/:id', checkAuth, postController.deletePost)
 postRouter.post('/create/comment/:id', checkAuth, postController.addComment)
+postRouter.post('/like/:id', checkAuth, postController.likePost)
+postRouter.post('/dislike/:id', checkAuth, postController.dislikePost)
 
 export default postRouter

@@ -1,18 +1,13 @@
-import { Router } from 'express'
-import multer from 'multer'
-import storage from '../config/imgConfig'
-import checkAuth from '../middleware/checkAuth'
-import checkRole from '../middleware/checkRole'
+// import { Router } from 'express';
+// import multer from 'multer';
+// import storage from '../config/imgConfig';
+// import checkAuth from '../middleware/checkAuth';
+// import checkRole from '../middleware/checkRole';
 
-const uploadRouter = new Router()
+// const upload = multer({ storage });
 
-const upload = multer({ storage })
+// upload.single('image', (req, res) => {
+//   return res.status(200).json({ url: `/uploads/${req.file.originalname}` });
+// });
 
-uploadRouter.post(
-  '/',
-  upload.single('image', (req, res) => {
-    res.json({ url: `/uploads/${req.file.originalname}` })
-  })
-)
-
-export default uploadRouter
+// export default upload;

@@ -444,3 +444,6 @@ Use mongoose.model(name, schema)	GET	/items/comments/637a116cca8eb261bd4e64d6	un
 20221130	17:52:14	d232897b-e29d-40c1-85d0-4b2dda1f2244	Error: Unauthorized user	POST	/upload	http://localhost:3000
 20221130	17:52:14	b4e2f8d7-1437-4fdf-bf60-702839ec946f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221130	17:58:20	9adc83cb-c21a-496f-9a2c-0a2f51b2040b	Error: Unauthorized user	POST	/upload	http://localhost:3000
+20221130	22:35:48	a6e0fff5-abf1-4f03-8c6c-0019a163bbd5	Error: Unauthorized user	POST	/uploads	undefined
+20221130	22:36:17	111dc4b2-8839-4c62-9d58-70e9474c5bf3	Error: Unauthorized user	POST	/uploads	undefined
+20221130	22:43:27	82c28cdf-a1d0-4bee-a0bf-79bb99082972	Error: Unauthorized user	POST	/uploads	undefined

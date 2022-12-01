@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const PostSchema = new mongoose.Schema(
   {
@@ -30,6 +30,8 @@ const PostSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    usersLiked: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
+    usersDisliked: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
     rating: Number,
     user: {
       type: mongoose.Schema.Types.ObjectId,
@@ -45,6 +47,6 @@ const PostSchema = new mongoose.Schema(
   },
 
   { timestamps: true }
-)
+);
 
-export default mongoose.model('Post', PostSchema)
+export default mongoose.model('Post', PostSchema);

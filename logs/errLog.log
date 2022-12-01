@@ -34,3 +34,7 @@
 20221201	15:13:02	6c3508ff-df78-4fd6-b36f-b0c3207b703c	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
 20221201	15:13:04	215417c1-f8f7-4b24-a4e1-2022c7fa5ac7	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
 20221201	15:13:05	d7c2c81d-3bc9-4a17-ad43-cd9013293d69	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	21:07:44	fb2d5244-3707-4cb7-b100-b1f0c090ffce	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	21:08:17	57640176-2767-4954-babd-2fdadb64066a	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221201	21:13:41	1926ae4c-97aa-4485-9610-ea5051a16829	ReferenceError: typeOf is not defined	POST	/posts/like/6388fbd71b846754689925c3	http://localhost:3000
+20221201	21:29:49	7c9499f3-8635-46a6-a69d-e3741467e822	TypeError: Cannot read property 'length' of null	POST	/posts/dislike/638900328ef9a6cbb7a94eab	http://localhost:3000

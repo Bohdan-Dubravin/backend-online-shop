@@ -10,7 +10,7 @@ dotenv.config()
 
 class AuthService {
   async registerUser(user) {
-    const { username, email, avatarURL, role } = user
+    const { username, email, avatarUrl, role } = user
     if (!username || !user.password || !email) {
       throw ApiError.BadRequest('Required all fields')
     }
@@ -31,7 +31,7 @@ class AuthService {
       username,
       password: hashedPassword,
       email,
-      avatarURL,
+      avatarUrl,
       role,
       activationLink,
     })
@@ -44,8 +44,11 @@ class AuthService {
 
     await tokenService.saveToken(userParam.id, tokens.refreshToken)
 
-    const createdUser = await UserModel.findById(userParam.id, '-password')
-    return { ...tokens, user: { ...createdUser._doc } }
+    const createdUser = await UserModel.findById(
+      userParam.id,
+      '-password -activationLink'
+    )
+    return { ...tokens, user: createdUser }
   }
 
   async login(credentials) {
@@ -71,8 +74,12 @@ class AuthService {
     const tokens = tokenService.generateToken({ ...userParam })
 
     await tokenService.saveToken(userParam.id, tokens.refreshToken)
+    const createdUser = await UserModel.findById(
+      userParam.id,
+      '-password -activationLink'
+    )
 
-    return { ...tokens, user: userParam }
+    return { ...tokens, user: createdUser }
   }
 
   async logout(refreshToken) {
@@ -92,7 +99,10 @@ class AuthService {
       throw ApiError.UnauthorizedError()
     }
 
-    const foundUser = await UserModel.findById(userData.id)
+    const foundUser = await UserModel.findById(
+      userData.id,
+      '-password -activationLink'
+    )
 
     if (!foundUser) {
       throw ApiError.UnauthorizedError()
@@ -104,7 +114,7 @@ class AuthService {
 
     await tokenService.saveToken(userParam.id, tokens.refreshToken)
 
-    return { ...tokens, ...userParam }
+    return { ...tokens, ...foundUser._doc }
   }
 
   async getAllUsers() {

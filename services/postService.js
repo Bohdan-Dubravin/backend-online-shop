@@ -117,8 +117,11 @@ class PostService {
 
   async likePost(postId, userId) {
     const user = await UserModel.findById(userId)
-
-    if (user.likes.includes(postId)) {
+    if (user.likes.some((id) => id.toString() === postId)) {
+      return 'already liked'
+    }
+    if (user.dislikes.some((id) => id.toString() === postId)) {
+      console.log('dislike exist')
       const likedPost = await PostModel.findByIdAndUpdate(
         postId,
         {
@@ -129,7 +132,8 @@ class PostService {
       )
 
       const user = await UserModel.findByIdAndUpdate(userId, {
-        $pull: { dislikes: { postId } },
+        $push: { likes: postId },
+        $pull: { dislikes: postId },
       })
 
       if (!likedPost || !user) {
@@ -137,27 +141,34 @@ class PostService {
       }
 
       return likedPost
+    } else {
+      const likedPost = await PostModel.findByIdAndUpdate(
+        postId,
+        {
+          $inc: { likes: 1 },
+        },
+        { returnDocument: 'after' }
+      )
+
+      await UserModel.findByIdAndUpdate(userId, {
+        $push: { likes: postId },
+      })
+
+      if (!likedPost) {
+        throw ApiError.BadRequest('Unsuccess')
+      }
+
+      return likedPost
     }
-
-    const likedPost = await PostModel.findByIdAndUpdate(
-      postId,
-      {
-        $inc: { likes: 1 },
-      },
-      { returnDocument: 'after' }
-    )
-
-    if (!likedPost) {
-      throw ApiError.BadRequest('Unsuccess')
-    }
-
-    return likedPost
   }
 
   async dislikePost(postId, userId) {
-    const user = await UserModel.findById(userId)
-
-    if (user.likes.includes(postId)) {
+    const user = await UserModel.findById(userId).lean()
+    if (user.dislikes.some((id) => id.toString() === postId)) {
+      return 'already disliked'
+    }
+    if (user.likes.some((id) => id.toString() === postId)) {
+      console.log('like exist')
       const dislikedPost = await PostModel.findByIdAndUpdate(
         postId,
         {
@@ -167,8 +178,26 @@ class PostService {
         { returnDocument: 'after' }
       )
 
-      const user = await UserModel.findByIdAndUpdate(userId, {
-        $pull: { likes: { postId } },
+      await UserModel.findByIdAndUpdate(userId, {
+        $push: { dislikes: postId },
+        $pull: { likes: postId },
+      })
+
+      if (!dislikedPost) {
+        throw ApiError.BadRequest('Unsuccess')
+      }
+
+      return dislikedPost
+    } else {
+      const dislikedPost = await PostModel.findByIdAndUpdate(
+        postId,
+        {
+          $inc: { dislikes: 1 },
+        },
+        { returnDocument: 'after' }
+      )
+      await UserModel.findByIdAndUpdate(userId, {
+        $push: { dislikes: postId },
       })
 
       if (!dislikedPost) {
@@ -177,20 +206,6 @@ class PostService {
 
       return dislikedPost
     }
-
-    const dislikedPost = await PostModel.findByIdAndUpdate(
-      postId,
-      {
-        $inc: { dislikes: 1 },
-      },
-      { returnDocument: 'after' }
-    )
-
-    if (!dislikedPost) {
-      throw ApiError.BadRequest('Unsuccess')
-    }
-
-    return dislikedPost
   }
 }
 

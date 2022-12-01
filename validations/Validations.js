@@ -17,5 +17,5 @@ export const postValidation = [
   body('title', 'Enter title').isLength({ min: 3 }).isString(),
   body('text', 'Enter text').isLength({ min: 3 }).isString(),
   body('tags', 'Enter user name from 3 to 16 long').isArray().optional(),
-  body('imageUrl', 'Invalid URL').optional().isURL(''),
+  body('imageUrl', 'Invalid URL').optional(),
 ]

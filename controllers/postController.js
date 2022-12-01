@@ -87,8 +87,7 @@ class PostsController {
       const { id } = req.params
       const userId = req.user.id
 
-      const likedPost = await PostService.likePost(id, userId, req.body)
-
+      const likedPost = await PostService.likePost(id, userId)
       res.status(200).json(likedPost)
     } catch (error) {
       next(error)
@@ -100,7 +99,7 @@ class PostsController {
       const { id } = req.params
       const userId = req.user.id
 
-      const likedPost = await PostService.dislikePost(id, userId, req.body)
+      const likedPost = await PostService.dislikePost(id, userId)
 
       res.status(200).json(likedPost)
     } catch (error) {

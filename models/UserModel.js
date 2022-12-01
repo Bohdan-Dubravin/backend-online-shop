@@ -18,7 +18,7 @@ const UserSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      default: 'user',
+      default: 'admin',
     },
     active: {
       type: Boolean,
@@ -28,15 +28,17 @@ const UserSchema = new mongoose.Schema(
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Post',
+        unique: true,
       },
     ],
     dislikes: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Post',
+        unique: true,
       },
     ],
-    avatarUrl: String,
+    avatarUrl: { type: String, default: '' },
     activationLink: String,
     posts: [
       {

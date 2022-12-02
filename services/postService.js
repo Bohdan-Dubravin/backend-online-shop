@@ -1,20 +1,21 @@
-import CommentPostSchema from '../models/CommentPostSchema.js';
-import PostModel from '../models/PostModel.js';
-import UserModel from '../models/UserModel.js';
-import ApiError from '../utils/apiError.js';
+import CommentPostSchema from '../models/CommentPostSchema.js'
+import PostModel from '../models/PostModel.js'
+import UserModel from '../models/UserModel.js'
+import ApiError from '../utils/apiError.js'
 
 class PostService {
   async getAllPosts() {
     const posts = await PostModel.find()
-      .populate('user', 'username avatarUrl likes dislikes')
-      .exec();
+      .select('-text')
+      .populate('user', 'username avatarUrl')
+      .populate('comments', 'rating')
 
-    return posts;
+    return posts
   }
 
   async getPost(postId) {
     if (!postId) {
-      throw ApiError.BadRequest('Invalid id');
+      throw ApiError.BadRequest('Invalid id')
     }
     const foundPost = await PostModel.findByIdAndUpdate(
       postId,
@@ -24,16 +25,16 @@ class PostService {
       { returnDocument: 'after' }
     )
       .populate('user', '-password')
-      .populate('comments');
+      .populate('comments')
 
-    return foundPost;
+    return foundPost
   }
 
   async createPost(post) {
-    const { userId, title, text, imageUrl, tags } = post;
+    const { userId, title, text, imageUrl, tags } = post
 
     if (!userId || !title || !text) {
-      throw ApiError.BadRequest('Enter all fields');
+      throw ApiError.BadRequest('Enter all fields')
     }
 
     const newPost = await PostModel.create({
@@ -42,35 +43,31 @@ class PostService {
       imageUrl,
       tags,
       user: userId,
-    });
+    })
 
     await UserModel.findByIdAndUpdate(userId, {
       $push: { posts: newPost._id },
-    });
+    })
 
-    return newPost;
+    return newPost
   }
 
   async deletePost(postId) {
-    try {
-      if (!postId) {
-        throw ApiError.BadRequest('Invalid id');
-      }
-
-      const post = await PostModel.findByIdAndDelete(postId).lean().exec();
-
-      if (!post) {
-        throw ApiError.BadRequest("Post don't exist");
-      }
-
-      return post;
-    } catch (error) {
-      throw ApiError.BadRequest("Can't delete post");
+    if (!postId) {
+      throw ApiError.BadRequest('Invalid id')
     }
+
+    const post = await PostModel.findByIdAndDelete(postId)
+
+    if (!post) {
+      throw ApiError.NotFound("Don't find post id")
+    }
+
+    return 'Post'
   }
 
   async updatePost(postId, post) {
-    const { title, text, userRole, userId } = post;
+    const { title, text, userRole, userId } = post
 
     // if (userRole !== 'admin') {
     //   const oldPost = await PostModel.findById(postId).lean().exec()
@@ -80,49 +77,51 @@ class PostService {
     // }
 
     if (!title || !text) {
-      throw ApiError.BadRequest('Required all fields');
+      throw ApiError.BadRequest('Required all fields')
     }
 
     const updatedPost = PostModel.findByIdAndUpdate(postId, {
       $set: { ...post },
-    });
+    })
 
     if (!updatedPost) {
-      throw ApiError.BadRequest('Post no found');
+      throw ApiError.BadRequest('Post no found')
     }
 
-    return updatedPost;
+    return updatedPost
   }
 
   async addComment(postId, userId, post) {
-    const { rating, text } = post;
+    const { rating, text } = post
 
     const comment = await CommentPostSchema.create({
       text,
       rating,
       author: userId,
       post: postId,
-    });
+    })
 
     if (!comment) {
-      throw ApiError.BadRequest('Comment was not created');
+      throw ApiError.BadRequest('Comment was not created')
     }
 
     await PostModel.findByIdAndUpdate(postId, {
       $push: { comments: { $each: [comment._id], $position: 0 } },
-    });
+    })
 
-    return comment;
+    return comment
   }
 
   async likePost(postId, userId) {
-    const isLiked = await PostModel.findOne({ usersLiked: [userId] });
+    const post = await PostModel.findById(postId).lean()
+
+    const isLiked = post.usersLiked.some((id) => id.toString() === userId)
 
     if (isLiked) {
-      return 'already liked';
+      return 'already disliked'
     }
 
-    const isDisliked = await PostModel.findOne({ usersDisliked: [userId] });
+    const isDisliked = post.usersDisliked.some((id) => id.toString() === userId)
 
     if (isDisliked) {
       const likedPost = await PostModel.findByIdAndUpdate(
@@ -133,9 +132,9 @@ class PostService {
           $push: { usersLiked: userId },
         },
         { returnDocument: 'after' }
-      );
+      )
 
-      return likedPost;
+      return likedPost
     } else {
       const likedPost = await PostModel.findByIdAndUpdate(
         postId,
@@ -144,19 +143,21 @@ class PostService {
           $push: { usersLiked: userId },
         },
         { returnDocument: 'after' }
-      );
-      return likedPost;
+      )
+      return likedPost
     }
   }
 
   async dislikePost(postId, userId) {
-    const isDisliked = await PostModel.findOne({ usersDisliked: [userId] });
+    const post = await PostModel.findById(postId).lean()
+
+    const isDisliked = post.usersDisliked.some((id) => id.toString() === userId)
 
     if (isDisliked) {
-      return 'already disliked';
+      return 'already disliked'
     }
 
-    const isLiked = await PostModel.findOne({ usersLiked: [userId] });
+    const isLiked = post.usersLiked.some((id) => id.toString() === userId)
 
     if (isLiked) {
       const dislikedPost = await PostModel.findByIdAndUpdate(
@@ -167,9 +168,9 @@ class PostService {
           $pull: { usersLiked: userId },
         },
         { returnDocument: 'after' }
-      );
+      )
 
-      return dislikedPost;
+      return dislikedPost
     } else {
       const dislikedPost = await PostModel.findByIdAndUpdate(
         postId,
@@ -178,10 +179,10 @@ class PostService {
           $push: { usersDisliked: userId },
         },
         { returnDocument: 'after' }
-      );
-      return dislikedPost;
+      )
+      return dislikedPost
     }
   }
 }
 
-export default new PostService();
+export default new PostService()

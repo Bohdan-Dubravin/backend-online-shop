@@ -18,7 +18,7 @@ authRouter.post('/logout', authController.logout);
 authRouter.get('/refresh', authController.refresh);
 authRouter.get('/users', checkAuth, checkRole, authController.getUsers);
 authRouter.delete(
-  '/deletegit/:id',
+  '/delete/:id',
   checkAuth,
   checkRole,
   authController.deleteUser

@@ -11,6 +11,7 @@ dotenv.config();
 class AuthService {
   async registerUser(user) {
     const { username, email, avatarUrl, role } = user;
+    console.log(user);
     if (!username || !user.password || !email) {
       throw ApiError.BadRequest('Required all fields');
     }

@@ -38,3 +38,12 @@
 20221201	21:08:17	57640176-2767-4954-babd-2fdadb64066a	Error: User or email already exist	POST	/auth/register	http://localhost:3000
 20221201	21:13:41	1926ae4c-97aa-4485-9610-ea5051a16829	ReferenceError: typeOf is not defined	POST	/posts/like/6388fbd71b846754689925c3	http://localhost:3000
 20221201	21:29:49	7c9499f3-8635-46a6-a69d-e3741467e822	TypeError: Cannot read property 'length' of null	POST	/posts/dislike/638900328ef9a6cbb7a94eab	http://localhost:3000
+20221203	19:26:40	92da64c9-4c49-427f-adae-3a361787634a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:26:58	95f29197-8119-47ea-8db6-724eb5b26d2a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:27:36	3d838b13-9504-400e-ad28-6d13e3d9622c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:28:35	7af96b18-2d7c-4981-9c9d-97383cc1bce8	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221203	19:28:42	a070d89f-3d3d-4b5b-aea4-a47e4e5d6aa0	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221203	19:32:31	b49081e6-9b11-4ddb-81f0-044a1a06cfd6	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221204	12:36:29	634d0ab3-5257-41b8-8cb3-a8468a72495d	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221204	13:28:46	ef848a8f-5ffc-4622-af7f-77813748aa3e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221204	13:30:07	edfb7042-517e-45f3-b4de-ccbcc82fb66e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000

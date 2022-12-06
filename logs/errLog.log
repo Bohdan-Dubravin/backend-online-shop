@@ -47,3 +47,20 @@
 20221204	12:36:29	634d0ab3-5257-41b8-8cb3-a8468a72495d	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
 20221204	13:28:46	ef848a8f-5ffc-4622-af7f-77813748aa3e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
 20221204	13:30:07	edfb7042-517e-45f3-b4de-ccbcc82fb66e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221205	13:17:20	4767061a-c79e-413f-8386-a12b899874d0	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	13:17:47	1f1ceaef-fb73-4fc0-bff4-f42d10e6cb07	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221205	13:17:50	3a5de412-deb9-4b4c-a196-776a037b7112	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221205	13:23:14	190a2286-050f-4c2c-a6ef-0893917d8816	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221205	16:11:33	bc664ac5-534b-4c0e-9684-87c36ec1f6a1	Error: Unauthorized user	POST	/posts/create/comment/638b8df32907f85cdc79a0b0	http://localhost:3000
+20221205	16:11:33	5c055e28-775d-4429-a28b-1da3e4695cc9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:04	aa729140-a7db-4054-9ec2-f146119db70f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:26	4dce53b3-e641-4d70-8f21-b0565084d24a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:26	3464f6e0-eebe-4792-9d91-a65737eee5af	Error: Post not found	GET	/posts/638c77ddc3398c5282360010	http://localhost:3000
+20221205	16:44:10	9b789af0-d7fd-42a6-bc0a-2a0ce9a2b02f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:38:01	e4f41ffa-788b-4f4b-8a0c-af50dcafb75e	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221206	17:45:51	b96861b6-bd35-4e3b-9581-08694abba496	Error: Unauthorized user	POST	/posts/dislike/638dfceefbce6fc875cd4cb4	http://localhost:3000
+20221206	17:45:51	68245192-81f8-4c49-aced-c5741c120209	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:45:56	eb241b48-50a0-4955-8708-8a0e4eb59928	Error: Unauthorized user	POST	/posts/dislike/638dfceefbce6fc875cd4cb4	http://localhost:3000
+20221206	17:45:56	a44b10d5-04d0-4c48-b851-5f5497a03cc2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:57:41	4ecb1f21-433b-4f14-9be2-f8afde9d5ed8	Error: Unauthorized user	POST	/posts/create/comment/638e0166fbce6fc875cd4ce4	http://localhost:3000
+20221206	17:57:41	5203b931-e320-42e1-b240-c72e254a9c0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

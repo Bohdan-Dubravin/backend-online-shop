@@ -183,6 +183,16 @@ class PostService {
       return dislikedPost
     }
   }
+
+  async getTags() {
+    const tags = await PostModel.find().select('tags').distinct()
+
+    const isLiked = post.usersLiked.some((id) => id.toString() === userId)
+
+    if (isLiked) {
+      return 'already disliked'
+    }
+  }
 }
 
 export default new PostService()

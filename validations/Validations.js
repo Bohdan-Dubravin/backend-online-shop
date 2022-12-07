@@ -15,7 +15,7 @@ export const registerValidation = [
 
 export const postValidation = [
   body('title', 'Enter title').isLength({ min: 3 }).isString(),
-  body('text', 'Enter text').isLength({ min: 3 }).isString(),
-  body('tags', 'Enter user name from 3 to 16 long').isArray().optional(),
+  body('text', 'Enter text').isLength({ min: 10 }).isString(),
+  body('tags', 'invalid format on tags').isArray().optional(),
   body('imageUrl', 'Invalid URL').optional(),
 ]

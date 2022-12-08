@@ -185,13 +185,26 @@ class PostService {
   }
 
   async getTags() {
-    const tags = await PostModel.find().select('tags').distinct()
-
-    const isLiked = post.usersLiked.some((id) => id.toString() === userId)
-
-    if (isLiked) {
-      return 'already disliked'
+    const tags = await PostModel.find().select('tags -_id').lean()
+    const arrTags = []
+    for (let i = 0; i < tags.length; i++) {
+      arrTags.push(...tags[i].tags)
     }
+
+    const freq = arrTags.reduce((r, e) => {
+      if (!r[e]) r[e] = 1
+      else r[e]++
+      return r
+    }, {})
+
+    const sorted = [...arrTags].sort((a, b) => {
+      return freq[b] - freq[a] || a - b
+    })
+
+    const uniqueTags = sorted.filter((c, index) => {
+      return sorted.indexOf(c) === index
+    })
+    return uniqueTags
   }
 }
 

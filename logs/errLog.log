@@ -64,3 +64,26 @@
 20221206	17:45:56	a44b10d5-04d0-4c48-b851-5f5497a03cc2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221206	17:57:41	4ecb1f21-433b-4f14-9be2-f8afde9d5ed8	Error: Unauthorized user	POST	/posts/create/comment/638e0166fbce6fc875cd4ce4	http://localhost:3000
 20221206	17:57:41	5203b931-e320-42e1-b240-c72e254a9c0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	11:23:27	1f9b5f3b-13e7-4da4-be65-d6bf1c07bfaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	12:26:17	7cff19fd-63f3-4377-9ff3-c2676a5035eb	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:27:28	bc9f0a6a-7b08-469b-8d47-c0bd42caf9c4	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:27:31	89e504ab-20a0-4dc1-8192-80dc0ca2c7c9	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:28:18	6e21f2b6-e07d-4315-b8a6-358896d6264b	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:28:20	00027fae-e20a-46c4-b11a-a9d518c33541	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:29:08	16c2d5be-1866-4dcb-a6cf-9ffb78c64ae9	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:29:25	bf46ac73-9272-45fe-816e-dda7d0491df5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	12:30:00	447d24ad-1605-47ae-b915-fbf3d01d7f46	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	13:03:52	1802af67-7e5c-4106-88db-cf310c16150b	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	13:15:05	126844ce-926b-4b2d-85a4-f0a1766bec23	ReferenceError: data is not defined	GET	/posts/tags	undefined
+20221208	16:13:27	34dfb671-609e-4b06-9c97-1b8f7cd6df05	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:05	c643efa9-3c17-4a5d-8698-df18091f74b5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:19	2ce01641-f3d8-40c3-bd70-c639c7bfdbaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:56	41d06cb9-532f-46a7-93b9-9a96983bb61a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:19:51	d5c5ba4e-cf66-4588-a765-d6edff152c3d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:23:21	ccdeece9-14fa-40c4-a735-6f8234d27aaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:23:56	3ac20015-a96d-4681-9b34-7300538e9136	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:26:23	3871d6a0-d969-4192-986e-2c53379d277d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:35:01	51337fbb-7257-4e63-95a4-9f91deed5dfd	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:41:32	0cf4c4e9-7852-4af1-acf9-47b619db3fb8	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:50:00	21c9af8a-0a03-42f5-b540-9ea06b17bdfe	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	17:48:11	6154f9cd-eecb-4216-bdb9-8d530037e99e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

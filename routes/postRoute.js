@@ -7,6 +7,7 @@ import { postValidation } from '../validations/Validations.js'
 const postRouter = new Router()
 
 postRouter.get('/', postController.getAllPosts)
+postRouter.get('/tags', postController.getTags)
 postRouter.get('/:id', postController.getPost)
 postRouter.post(
   '/create',

@@ -106,6 +106,15 @@ class PostsController {
       next(error)
     }
   }
+
+  async getTags(req, res, next) {
+    try {
+      const tags = await PostService.getTags()
+      res.status(200).json(tags)
+    } catch (error) {
+      next(error)
+    }
+  }
 }
 
 export default new PostsController()

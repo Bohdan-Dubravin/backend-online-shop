@@ -87,3 +87,9 @@
 20221208	16:41:32	0cf4c4e9-7852-4af1-acf9-47b619db3fb8	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221208	16:50:00	21c9af8a-0a03-42f5-b540-9ea06b17bdfe	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221208	17:48:11	6154f9cd-eecb-4216-bdb9-8d530037e99e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:34:42	9587a9b8-eb53-424b-aa0b-2d20813138fe	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:40:16	75907e58-0672-4b3d-b0e4-6552e70d5d98	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:40:24	ec71adad-cba5-4f79-88c6-59e0e4f2b806	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:41:03	5a19a52a-f56b-4279-b3aa-086953991bf2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:42:05	8f8eebb3-1659-40a7-9ef7-678b08c0d9e6	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:45:43	fb0a61f8-515b-4569-89ed-7130b8e808e1	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

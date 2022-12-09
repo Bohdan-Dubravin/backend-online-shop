@@ -3,7 +3,9 @@ import ApiError from '../utils/apiError.js'
 
 class PostsController {
   async getAllPosts(req, res, next) {
-    const posts = await PostService.getAllPosts()
+    const tag = req.query.tag
+
+    const posts = await PostService.getAllPosts(tag)
 
     res.status(200).json(posts)
     try {

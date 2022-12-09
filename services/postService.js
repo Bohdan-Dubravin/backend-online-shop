@@ -4,7 +4,15 @@ import UserModel from '../models/UserModel.js'
 import ApiError from '../utils/apiError.js'
 
 class PostService {
-  async getAllPosts() {
+  async getAllPosts(tag) {
+    if (tag) {
+      const posts = await PostModel.find({ tags: tag })
+        .select('-text')
+        .populate('user', 'username avatarUrl')
+        .populate('comments', 'rating')
+      return posts
+    }
+
     const posts = await PostModel.find()
       .select('-text')
       .populate('user', 'username avatarUrl')

@@ -97,3 +97,17 @@
 20221209	19:51:12	0ec3f2af-3d18-4aed-aebc-d95befff0b63	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221209	19:51:19	32eb6e39-a41d-4454-9ec1-f2e401a84ff9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221210	09:59:28	4ecf258b-549d-4fa0-9c72-53432a382acd	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221210	19:50:13	ad3989c3-4a3e-4a0e-bde4-27d4784969e7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:07	f1ac4ec8-5466-4265-8c63-d38297ab4f8b	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:15	76ba54a6-42bb-40e2-a929-01e88d9cd033	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:22	527ff8cf-da42-48c3-81c1-72a0269b04af	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:54:01	d4c14ec6-2010-44cd-b0eb-639290385cf4	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:18:44	fb07c6be-d4dc-4726-b3e6-cd2e4bac0131	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:19:07	998b98f1-7c1b-4227-97b2-cb6067c9dd60	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:20:08	23449d7e-a0fc-41c0-a2c3-c70ce5d7575a	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:20:08	8ccdc56f-c712-4ced-a54d-4b8cfbf5c25a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:20:18	6129ffc3-c193-4635-a765-12425d0f8bf7	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:20:18	85e4f8f6-ae14-4359-af15-62a9441c63c7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:22:49	52c2826b-3b8a-40aa-bf30-ad98250a7d78	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:22:49	8d932da9-c702-439d-ab25-2724ff4da03c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221211	21:25:01	ac404633-197d-4295-a2c6-f2625f76f928	StrictPopulateError: Cannot populate path `comments.user` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6394870d56a85e36ebba97aa	http://localhost:3000

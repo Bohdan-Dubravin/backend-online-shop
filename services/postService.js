@@ -18,6 +18,7 @@ class PostService {
       .select('-text')
       .populate('user', 'username avatarUrl')
       .populate('comments', 'rating')
+
       .sort({ _id: -1 });
 
     return posts;
@@ -35,7 +36,14 @@ class PostService {
       { returnDocument: 'after' }
     )
       .populate('user', '-password')
-      .populate('comments');
+      .populate('comments')
+      .populate({
+        path: 'comments',
+        populate: {
+          path: 'author',
+          select: 'username avatarUrl',
+        },
+      });
 
     return foundPost;
   }

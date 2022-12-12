@@ -3835,3 +3835,12 @@
 20221212	11:51:24	52560789-1956-47a0-895e-dfae56fe2f50	GET	/posts?tag=%23js	http://localhost:3000
 20221212	11:51:27	36f547bf-4897-473c-9394-0552107a3129	GET	/posts?tag=%23react	http://localhost:3000
 20221212	11:51:29	e4ee8eff-85e5-4951-84a3-4f6ad3deafc4	GET	/posts?tag=%23js	http://localhost:3000
+20221212	21:42:11	45652848-7d50-43f3-8463-bf1ed298a42c	GET	/posts/tags	http://localhost:3000
+20221212	21:42:11	fb71946c-ef72-43fe-8a9c-91d3c3971efe	GET	/auth/refresh	http://localhost:3000
+20221212	21:42:11	d74add77-2731-4e2b-b193-16562eaf742a	GET	/posts	http://localhost:3000
+20221212	21:42:11	9d4dd331-43ff-4f2d-9fdf-c5cc3e273342	GET	/uploads/photo-1543373014-cfe4f4bc1cdf.jfif	undefined
+20221212	21:42:11	77216e37-e2e0-45fa-8e13-aa85fbd88476	GET	/uploads/benchakitti-park-bangkok-thailand-this-260nw-242866975.webp	undefined
+20221212	21:42:19	e356d20a-f6f9-461b-93c5-2187c7ebab4b	POST	/upload	http://localhost:3000
+20221212	21:43:33	3d22f728-d97d-46e6-abda-664388f7c347	GET	/auth/refresh	http://localhost:3000
+20221212	21:43:40	ebc2d088-c47e-4b50-8806-610b946aa026	POST	/upload	http://localhost:3000
+20221212	21:43:40	c68a9dc4-d3fe-4fa1-82cc-757174ddfc0b	GET	/tmp/pc%20image.jpg/	undefined

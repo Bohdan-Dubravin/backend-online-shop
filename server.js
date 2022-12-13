@@ -44,7 +44,7 @@ mongoose.connection.once('open', () => {
     if (err) {
       console.log(err)
     } else {
-      console.log('Connected to 5000 port')
+      console.log(`'Connected to ${port} port'`)
     }
   })
 })

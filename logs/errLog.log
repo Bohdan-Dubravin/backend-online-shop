@@ -145,3 +145,15 @@
 20221213	17:45:24	cef420a4-c476-47ee-af11-7ca5d1b53c97	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
 20221213	17:46:18	030322eb-0722-4792-b3cf-8acdfb0649d3	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
 20221213	17:51:09	99cd1880-893f-45ec-8327-049a425f7fa5	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:20:04	5085b478-901f-4ec2-a3af-1e6f322d1a50	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	21:20:36	73a2a694-ba4d-4dd8-85bc-70c0c715c215	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:20:55	8e57d2c2-5bf2-44fb-94c2-069924ca9f96	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:21:46	6af46430-ef7d-40d4-8c07-395d5e1e079f	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:22:14	8c93a876-093c-47f0-a043-ce29e4a959fb	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:31:09	a28e6963-1589-49ac-8b10-eb32784c7571	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:31:42	f3b90844-1e32-42fb-bf12-e1b28e2f3b8e	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:34:16	b89d90a4-75f0-4dd7-b786-c6d7b9cdf5bc	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:36:39	4dc8c434-a4f5-4434-9e7f-bbd1f0238a97	TypeError: The "path" argument must be of type string. Received an instance of Object	POST	/uploads	undefined
+20221213	21:37:25	ea805405-3495-45c5-bdd9-bdf3d4ba82eb	TypeError: The "path" argument must be of type string. Received an instance of Object	POST	/uploads	undefined
+20221213	21:41:04	48dc77eb-8480-4b92-a2a5-fceb63ef1553	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	21:41:56	bba7cc75-9e84-4994-b0ca-a5ddfe3c2ff4	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

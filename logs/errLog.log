@@ -125,3 +125,19 @@
 20221212	21:42:19	59ff1810-c224-483f-95f2-8dd96ab790fd	Error: ENOENT: no such file or directory, open 'G:\tmp\pc image.jpg'	POST	/upload	http://localhost:3000
 20221212	21:43:33	1997c02f-3611-447c-b2b5-84e214e900e3	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221213	07:16:39	7e8ac75e-2940-4a62-898c-3bdff1e2be9f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	14:59:09	c61c9779-1a02-402a-b76a-2040a1d5e423	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	14:59:42	ebe35b9d-1302-4a84-8b34-653b2486e812	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:04:47	d44fd58d-1856-4fe5-a6d5-b636d6b0b21e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:06:25	d1cd03de-ef94-4ad6-ba25-3e5adc6794b2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:17:15	e0c1a9ab-5de9-4eb2-b3eb-7aa2a73e1414	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:20:26	3966e59c-1c10-4de2-b747-0cb7c564631b	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:10	0dacc630-f8c1-4d50-91cb-2c9b8de17ade	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:28	a1641f02-80fe-42be-abd2-dfc635e7cf85	Error: Unauthorized user	POST	/posts/like/6396ed7e9c250c35d5934f21	http://localhost:3000
+20221213	15:23:28	148c6064-62fa-462e-8fdc-3e2c1002a4af	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:36	bfba3a7a-1517-4b56-bb99-ea60b5f3f39b	Error: Unauthorized user	POST	/posts/like/6396ed939c250c35d5934f28	http://localhost:3000
+20221213	15:23:36	248b368a-4489-495d-888b-14da816bf584	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:44	c4bdb23b-a47c-453c-8795-0f2b11294b16	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:19	d9c58474-004d-41e2-940d-462da60c5a1a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:22	2717f906-c494-4edb-8bdc-ede06d00edb1	Error: Unauthorized user	POST	/posts/like/6396ed939c250c35d5934f28	http://localhost:3000
+20221213	15:24:22	d5a33ede-95d9-4dfe-b6ba-31eb801604c5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:24	940ca150-582f-42a2-a1f7-4c5ad454ab0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

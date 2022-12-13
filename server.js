@@ -10,14 +10,12 @@ import postRouter from './routes/postRoute.js'
 import uploadRouter from './utils/imageUpload.js'
 import itemRouter from './routes/itemRoute.js'
 import errorLogger from './middleware/errorLogger.js'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const port = process.env.PORT || 5000
 
-const corsOptions = {
-  origin: '*',
-  credentials: true, //access-control-allow-credentials:true
-  optionSuccessStatus: 200,
-}
+const corsOptions = { origin: true, credentials: true }
 
 connectDB()
 const app = express()

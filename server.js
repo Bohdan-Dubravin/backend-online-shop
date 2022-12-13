@@ -11,8 +11,10 @@ import uploadRouter from './utils/imageUpload.js'
 import itemRouter from './routes/itemRoute.js'
 import errorLogger from './middleware/errorLogger.js'
 
+const port = process.env.PORT || 5000
+
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: '*',
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 }
@@ -38,7 +40,7 @@ app.use('/*', (req, res) => {
 
 mongoose.connection.once('open', () => {
   console.log('Connected to DB')
-  app.listen(5000, (err) => {
+  app.listen(port, (err) => {
     if (err) {
       console.log(err)
     } else {

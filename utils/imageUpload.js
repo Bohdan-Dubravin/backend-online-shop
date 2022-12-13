@@ -1,18 +1,21 @@
-import multer from 'multer';
-import storage from '../config/imgConfig.js';
-import { Router } from 'express';
-import checkAuth from '../middleware/checkAuth.js';
+import multer from 'multer'
+import storage from '../config/storageConfig.js'
+import { Router } from 'express'
+import checkAuth from '../middleware/checkAuth.js'
+import cloudinary from '../config/storageConfig.js'
+const upload = multer({ storage })
 
-const upload = multer({ storage });
+const uploadRouter = new Router()
 
-const uploadRouter = new Router();
-
-uploadRouter.post('/', upload.single('image'), (req, res, next) => {
+uploadRouter.post('/', async (req, res, next) => {
   try {
-    res.status(200).json({ url: `/uploads/${req.file.originalname}/` });
+    console.log(req.body)
+    const result = await cloudinary.uploader.upload(req.body, options)
+    console.log(result)
+    res.status(200).json({ message: 'ok' })
   } catch (error) {
-    next(error);
+    next(error)
   }
-});
+})
 
-export default uploadRouter;
+export default uploadRouter

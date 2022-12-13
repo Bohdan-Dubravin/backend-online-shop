@@ -141,3 +141,7 @@
 20221213	15:24:22	2717f906-c494-4edb-8bdc-ede06d00edb1	Error: Unauthorized user	POST	/posts/like/6396ed939c250c35d5934f28	http://localhost:3000
 20221213	15:24:22	d5a33ede-95d9-4dfe-b6ba-31eb801604c5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221213	15:24:24	940ca150-582f-42a2-a1f7-4c5ad454ab0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	17:40:26	4a3aab9c-0597-4212-be4c-526ca8896b14	TypeError: Cannot read property 'upload' of undefined	POST	/upload	http://localhost:3000
+20221213	17:45:24	cef420a4-c476-47ee-af11-7ca5d1b53c97	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	17:46:18	030322eb-0722-4792-b3cf-8acdfb0649d3	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	17:51:09	99cd1880-893f-45ec-8327-049a425f7fa5	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined

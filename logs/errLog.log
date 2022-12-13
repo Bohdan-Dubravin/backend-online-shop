@@ -124,3 +124,4 @@
 20221212	21:42:11	7b00481d-35f8-4ea2-aabc-d4c61937fac5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221212	21:42:19	59ff1810-c224-483f-95f2-8dd96ab790fd	Error: ENOENT: no such file or directory, open 'G:\tmp\pc image.jpg'	POST	/upload	http://localhost:3000
 20221212	21:43:33	1997c02f-3611-447c-b2b5-84e214e900e3	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	07:16:39	7e8ac75e-2940-4a62-898c-3bdff1e2be9f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

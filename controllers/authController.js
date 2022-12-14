@@ -16,6 +16,7 @@ class AuthController {
       res.cookie('refreshToken', userData.refreshToken, {
         httpOnly: true,
         maxAge: 30 * 24 * 60 * 60 * 1000,
+        sameSite: 'None',
       })
 
       res.status(200).json(userData)
@@ -33,6 +34,7 @@ class AuthController {
       res.cookie('refreshToken', userData.refreshToken, {
         httpOnly: true,
         maxAge: 30 * 24 * 60 * 60 * 1000,
+        sameSite: 'None',
       })
 
       res.status(200).json(userData)
@@ -62,6 +64,7 @@ class AuthController {
       res.cookie('refreshToken', userData.refreshToken, {
         httpOnly: true,
         maxAge: 30 * 24 * 60 * 60 * 1000,
+        sameSite: 'None',
       })
 
       res.status(200).json(userData)

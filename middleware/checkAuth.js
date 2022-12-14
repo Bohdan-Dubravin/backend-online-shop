@@ -3,6 +3,7 @@ import ApiError from '../utils/apiError.js';
 
 export default async function (req, res, next) {
   try {
+    console.log(req.headers);
     const authorizationHeader = req.headers.authorization;
     if (!authorizationHeader) {
       return next(ApiError.UnauthorizedError());

@@ -165,3 +165,12 @@
 20221214	15:45:20	fb1456ba-c5fc-49f6-a861-623dd7163884	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221214	15:49:03	77612b2d-02e5-4625-9bbf-6cc6f1cccf60	Error: User does not exist	POST	/auth/login	http://localhost:3000
 20221214	15:49:07	b8d774c5-2a1a-4251-a932-66b0b72ab34d	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221214	21:50:50	75542674-671c-45c1-9f23-dce4156f4b45	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:51:22	6e88f136-6cde-48f7-9982-5ac56bfeed91	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:51:35	e6d6767f-e59b-4df6-9a71-26ebdd7e85ef	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:52:11	b65e2654-a90d-4090-ade1-4beac3034840	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:52:31	b1bd262b-1539-4c5b-8249-f7ec0882f505	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:53:07	cd6b5440-8674-49a9-a74c-da22dc68283f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:54:53	da569593-a177-4e88-b160-472475e42bc9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:56:33	bd1be213-c1e9-4759-8d38-4998cd2feea7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	22:02:42	d964b633-6e78-40d8-a6b5-c2b139c71249	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000

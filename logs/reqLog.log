@@ -4159,3 +4159,15 @@
 20221214	22:08:19	4de25ce0-a19b-4443-a8a0-447ba92f7131	GET	/posts/6399d13143331f1bebf0ed79	http://localhost:3000
 20221214	22:08:24	fd4cfd6b-b13a-4ab1-bcd4-52f8218f18ae	GET	/posts/tags	http://localhost:3000
 20221214	22:08:25	9f39dfed-83a7-4dfd-b693-9fa133765a2d	GET	/posts	http://localhost:3000
+20221214	22:38:39	36c1a34b-01b8-461f-af08-c720b080759a	GET	/posts/tags	http://localhost:3000
+20221214	22:38:39	9b8ee18f-fcb8-43fc-9e78-545f00fc1edf	GET	/auth/refresh	http://localhost:3000
+20221214	22:38:39	00bca592-9b11-4370-88b8-48987c57552a	GET	/posts	http://localhost:3000
+20221214	22:39:57	949f596e-f943-401b-a5e9-e7d3f932f2d9	GET	/posts/tags	http://localhost:3000
+20221214	22:39:57	7c58005c-d460-4c03-a728-b7bbb1533b84	GET	/auth/refresh	http://localhost:3000
+20221214	22:39:57	36566e49-d9d8-4e4b-ba4c-9d868127d188	GET	/posts	http://localhost:3000
+20221214	22:40:06	b3c1d401-bbc9-4348-8bf0-c86a64c5020d	POST	/auth/login	http://localhost:3000
+20221214	22:40:07	4faed364-753d-47f3-9900-cc9ba4311941	GET	/posts/tags	http://localhost:3000
+20221214	22:40:07	b68be82d-763d-4ae0-bd91-4e0efbe90a70	GET	/posts	http://localhost:3000
+20221214	22:40:23	1dd69c48-36a3-4b20-be42-981d3b26c7ed	GET	/posts/tags	http://localhost:3000
+20221214	22:40:23	7ba60259-3f41-46b5-8fe2-5653c36a4576	GET	/auth/refresh	http://localhost:3000
+20221214	22:40:23	cf183b56-3483-4605-a89e-8d8e73a38041	GET	/posts	http://localhost:3000

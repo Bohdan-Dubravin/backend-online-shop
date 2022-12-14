@@ -21,7 +21,6 @@ const port = process.env.PORT || 5000
 const corsOptions = {
   origin: true,
   credentials: true,
-  exposedHeaders: ['set-cookie'],
 }
 
 connectDB()
@@ -30,6 +29,7 @@ const app = express()
 app.set('trust proxy', 1)
 app.use(
   session({
+    secret: 'key',
     secureProxy: true,
     proxy: true, // add this when behind a reverse proxy, if you need secure cookies
     cookie: {

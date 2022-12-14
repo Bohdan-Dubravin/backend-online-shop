@@ -1,17 +1,13 @@
-import multer from 'multer';
+import { Router } from 'express'
+import { v2 as cloudinary } from 'cloudinary'
 
-import { Router } from 'express';
-import checkAuth from '../middleware/checkAuth.js';
-import { v2 as cloudinary } from 'cloudinary';
-// const upload = multer({ storage })
-
-const uploadRouter = new Router();
+const uploadRouter = new Router()
 
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.CLOUDINARY_KEY,
   api_secret: process.env.CLOUDINARY_SECRET,
-});
+})
 
 uploadRouter.post('/', async (req, res, next) => {
   try {
@@ -22,11 +18,11 @@ uploadRouter.post('/', async (req, res, next) => {
         resource_type: 'auto',
         folder: 'images',
       }
-    );
-    res.status(200).json(result.url);
+    )
+    res.status(200).json(result.url)
   } catch (error) {
-    next(error);
+    next(error)
   }
-});
+})
 
-export default uploadRouter;
+export default uploadRouter

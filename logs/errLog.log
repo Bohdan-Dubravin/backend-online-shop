@@ -157,3 +157,11 @@
 20221213	21:37:25	ea805405-3495-45c5-bdd9-bdf3d4ba82eb	TypeError: The "path" argument must be of type string. Received an instance of Object	POST	/uploads	undefined
 20221213	21:41:04	48dc77eb-8480-4b92-a2a5-fceb63ef1553	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221213	21:41:56	bba7cc75-9e84-4994-b0ca-a5ddfe3c2ff4	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:17:53	81f25c9e-77a6-448b-a19a-690442c8f205	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:42:26	19149da3-d392-463e-b650-7e6624c68838	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221214	15:45:14	041b4abe-df61-46d3-b498-9f6d5565f1a2	Error: Unauthorized user	POST	/posts/like/6399d13143331f1bebf0ed79	http://localhost:3000
+20221214	15:45:14	396e05bf-0683-42b4-a4fc-f38505a783d9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:45:20	41622017-b5d7-4dee-bc44-cdcba7c6fecb	Error: Unauthorized user	POST	/posts/dislike/6399d13143331f1bebf0ed79	http://localhost:3000
+20221214	15:45:20	fb1456ba-c5fc-49f6-a861-623dd7163884	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:49:03	77612b2d-02e5-4625-9bbf-6cc6f1cccf60	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221214	15:49:07	b8d774c5-2a1a-4251-a932-66b0b72ab34d	Error: Invalid password	POST	/auth/login	http://localhost:3000

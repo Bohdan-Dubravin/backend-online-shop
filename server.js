@@ -26,20 +26,20 @@ const corsOptions = {
 connectDB()
 const app = express()
 
-app.set('trust proxy', 1)
-app.use(
-  session({
-    resave: false,
-    secret: 'sessionss',
-    secureProxy: true,
+// app.set('trust proxy', 1)
+// app.use(
+//   session({
+//     resave: false,
+//     secret: 'sessionss',
+//     secureProxy: true,
 
-    saveUninitialized: false,
-    cookie: {
-      secure: true,
-      maxAge: 5184000000, // 2 months
-    },
-  })
-)
+//     saveUninitialized: false,
+//     cookie: {
+//       secure: true,
+//       maxAge: 5184000000, // 2 months
+//     },
+//   })
+// )
 
 app.use(fileUpload({ useTempFiles: true }))
 app.use(cors(corsOptions))

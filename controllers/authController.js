@@ -31,7 +31,7 @@ class AuthController {
       const foundUser = await authService.login(req.body)
 
       const { password, ...userData } = foundUser
-
+      res.session.refreshToken = userData.refreshToken
       res.cookie('refreshToken', userData.refreshToken, {
         httpOnly: true,
         maxAge: 30 * 24 * 60 * 60 * 1000,

@@ -12,7 +12,6 @@ import itemRouter from './routes/itemRoute.js'
 import errorLogger from './middleware/errorLogger.js'
 import * as dotenv from 'dotenv'
 import fileUpload from 'express-fileupload'
-import session from 'express-session'
 
 dotenv.config()
 
@@ -27,17 +26,6 @@ connectDB()
 const app = express()
 
 app.set('trust proxy', 1)
-app.use(
-  session({
-    secret: 'key',
-    secureProxy: true,
-    proxy: true, // add this when behind a reverse proxy, if you need secure cookies
-    cookie: {
-      secure: true,
-      maxAge: 5184000000, // 2 months
-    },
-  })
-)
 
 app.use(fileUpload({ useTempFiles: true }))
 app.use(cors(corsOptions))

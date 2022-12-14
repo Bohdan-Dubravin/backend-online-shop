@@ -31,7 +31,6 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(logger)
 
-// app.use('/uploads', uploadRouter);
 app.use('/auth', authRouter)
 app.use('/upload', uploadRouter)
 app.use('/posts', postRouter)

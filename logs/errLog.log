@@ -189,3 +189,5 @@
 20221215	11:44:52	8b8e005a-cd5c-4663-b140-458ec66ec437	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
 20221215	11:45:34	0255a36c-01ee-41d9-88a4-9a050bc1aa96	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
 20221215	11:45:42	14ee867c-75b6-401d-afed-a3d058c90163	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	17:16:20	10724684-a2d7-49d8-9a8d-d733a23084f6	Error: Unauthorized user	POST	/posts/create	http://localhost:3000
+20221215	17:19:30	1c8104a3-fa2d-4952-974d-063ae3c34274	Error: Unauthorized user	POST	/posts/create	http://localhost:3000

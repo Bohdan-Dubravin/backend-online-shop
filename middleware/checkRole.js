@@ -5,7 +5,7 @@ export default async function (req, res, next) {
   // const authHeader = req.headers.authorization || req.headers.Authorization
 
   try {
-    const authorization = req.body.accessToken
+    const authorization = req.body.token
     if (!authorization) {
       return next(ApiError.UnauthorizedError())
     }

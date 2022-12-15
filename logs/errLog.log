@@ -175,3 +175,17 @@
 20221214	21:56:33	bd1be213-c1e9-4759-8d38-4998cd2feea7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221214	22:02:42	d964b633-6e78-40d8-a6b5-c2b139c71249	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
 20221214	22:39:57	cade3529-b71a-4044-9002-b0f0fc699734	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:36:19	a828014e-1836-45fb-a2d0-2910e3497b70	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:37:45	e1e07af2-f3ec-49a3-843c-c990e3068020	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:37:49	3074d78f-6f5b-474b-ab2a-60a7d3b9de17	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:39:26	66de7282-8779-49de-bce6-57327f6d5428	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:41:59	ac523136-56f4-4664-a09d-20afdbb84e02	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:42:09	d9510d5e-10aa-4aa7-bc14-9b14e072b25f	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:42:52	91f58ed7-c5f0-4c43-998b-72f33bd9a77f	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:20	99bcb13f-1a4d-45e5-bb8c-8249bbd5540c	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:24	c8395e65-eb4b-4d2e-936a-c9884f753ec6	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:37	438bf978-59b5-4b5d-a7f4-4ab5dfe7ab23	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:44:36	9ed233b5-3f6d-44f6-88e4-1654fc73f85d	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:44:52	8b8e005a-cd5c-4663-b140-458ec66ec437	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:45:34	0255a36c-01ee-41d9-88a4-9a050bc1aa96	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:45:42	14ee867c-75b6-401d-afed-a3d058c90163	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000

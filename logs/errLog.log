@@ -1,55 +1,193 @@
-20221026	08:15:17	7e961fd8-f9a8-4a65-8af7-9e3b7a4d7547	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
-20221026	08:15:29	94c3feed-40b4-4f72-9a55-7e880d1d1f4b	Error: Illegal arguments: number, number	POST	/auth/register	undefined
-20221026	08:22:57	f1b8d659-9ed5-49eb-8b0a-0a53d3ffe23a	TypeError: registerValidation is not a function	POST	/auth/register	undefined
-20221026	08:24:24	7b254b8d-5598-4df5-b921-c2fc6d6e3eac	TypeError: registerValidation is not a function	POST	/auth/register	undefined
-20221026	08:26:46	d173d0f9-f569-4dcb-9c1e-edcbee86039e	Error: Illegal arguments: number, number	POST	/auth/register	undefined
-20221026	08:27:05	ffb9670e-dd3a-4bc2-bb29-ec535414089c	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
-20221026	08:27:56	dbf0b485-ee0d-4829-adf4-c32fe17ae7dc	MongoServerError: E11000 duplicate key error collection: blog-app.users index: email_1 dup key: { email: "fake211s222@gmail.com" }	POST	/auth/register	undefined
-20221026	08:28:45	3c001c78-c119-4843-8829-19ce609e0bdd	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	08:28:53	36b1bd14-f341-4dce-a956-ad789cf18add	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	08:28:58	7f37f1b2-6ea8-4bea-acb6-6f83131e5fc3	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	08:29:01	2e1270d2-9a1b-41a7-aed8-4609354be039	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	08:29:05	f24fc434-2fd6-4c65-90bf-6e1d049eb255	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	08:30:21	46f414ec-b375-4f6d-8484-d4151b243472	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	22:36:39	8f90f241-9095-4b48-9140-ebbba1e1823a	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	22:38:36	be8a68bb-c9ab-43bf-8662-8742e19d8c5c	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:38:38	3f191368-e83d-4c62-aa57-c90cac7faeb1	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:41:58	52f05584-503a-434f-ad11-064b34473ac9	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:43:09	f1797d2f-5b8c-45c9-946d-e089f3df82ac	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:43:11	3a09fc14-1fde-494e-ba60-5e91d144c4fa	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:44:09	d7b129f7-21e3-4ad3-9bde-210bfe4af456	Error: 	POST	/auth/login	undefined
-20221026	22:44:18	01a1422f-aa71-46cb-b97c-4823b5772bc6	Error: 	POST	/auth/login	undefined
-20221026	22:44:52	aff8f0be-22bf-4e1c-bf17-b8905b2e588e	Error: 	POST	/auth/login	undefined
-20221026	22:45:17	a04a5835-dc4c-49a9-9bd8-1450f42dac94	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:57:22	8eb6e479-d673-445e-8723-f44c7501b285	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:58:00	4d4d9a46-e19f-4d02-a8de-e77a3da1fc60	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:58:22	566d3ecc-598d-4550-b7a3-7b354baad1f6	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	22:58:25	95e602e6-5583-42e2-80f5-bf73229d7e8c	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	22:59:44	14e0e8ce-6290-4782-b6df-18c773d6b860	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	23:01:46	557d2f92-80e0-45c9-b380-0279f03f854f	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	23:03:52	cfbc9e30-b968-4a72-907b-5dd5d2dba749	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	23:05:29	3a9cddee-6cd5-4f28-9a91-0434db7a78de	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	23:05:33	0d080d38-77da-4550-8d2d-0c05680e85b3	ReferenceError: message is not defined	POST	/auth/register	undefined
-20221026	23:06:50	0b09c0fb-cdb6-4919-909a-1f64ed37868a	ReferenceError: message is not defined	POST	/auth/login	undefined
-20221026	23:09:25	fb9c2c93-48d5-4c39-8511-e9bea440cdfe	ReferenceError: errors is not defined	POST	/auth/login	undefined
-20221026	23:09:39	593e8767-88d9-4ec0-9943-045227258001	Error: 	POST	/auth/login	undefined
-20221026	23:09:42	bf4a9cdb-9a8d-45fb-a801-c4f828c7ecf3	Error: 	POST	/auth/login	undefined
-20221026	23:10:36	8235d8d6-a595-4ee4-8e98-66d3169f1bc4	Error: 	POST	/auth/login	undefined
-20221026	23:12:55	1db264c5-91c3-44b9-bf2f-68eb9506f3db	Error: Invalid password	POST	/auth/login	undefined
-20221026	23:14:16	8ce11bdb-578d-40b7-aa66-b765a63d1213	Error: User already exist	POST	/auth/register	undefined
-20221026	23:14:27	bc3f4e08-fdb3-41f9-9483-5300db481de1	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221026	23:14:56	3ea1c514-7ba2-45f9-88bf-1972a2e8bf31	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221026	23:21:33	c0ad78ef-ad66-4be0-8583-cb5faf941ef7	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221026	23:21:56	6acb21da-a68b-4ca8-95f6-6ab1ddd4a042	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221026	23:24:17	e7c06a5a-bf0b-46ac-83f3-ae3ab05d1e5a	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221026	23:24:20	c4597ff0-2dff-4b2a-b204-313fab8b7bdf	Error: User already exist	POST	/auth/register	undefined
-20221026	23:24:35	35846d10-54c0-41fd-bb17-d087e4633121	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221027	21:59:47	bcd6fce4-e441-4df8-a277-264160e07f19	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221027	22:03:52	8eb6c164-1531-420d-a79d-9cced53a3d92	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221027	22:08:01	a93a2136-4ad1-491f-9d3d-b59a844cc43d	ValidationError: Token validation failed: user: Cast to ObjectId failed for value "false" (type boolean) at path "user" because of "BSONTypeError"	POST	/auth/login	undefined
-20221027	22:11:37	01f8b57b-6a40-49fe-9909-b408c76f8911	Error: Invalid password	POST	/auth/login	undefined
-20221027	22:11:45	b0027e8f-de4b-4291-8a5d-ddd780076e29	Error: User does not exist	POST	/auth/login	undefined
-20221029	15:42:46	9552371c-a0dc-4072-9ee4-6905a501b70c	Error: Unathirized	GET	/auth/users	undefined
-20221029	15:50:46	9a395671-42c2-41a6-9a84-ea5618a4bb53	Error: Unathirized	GET	/auth/users	undefined
-20221029	15:51:01	673d3737-ee95-45d4-b524-40d3c94270f3	Error: Unathirized	GET	/auth/users	undefined
-20221029	15:51:27	e3930e8d-b6ef-453a-a3bd-941fbdf0a4be	Error: Unathirized	GET	/auth/users	undefined
+20221201	09:34:10	1903bdca-17a2-412f-8327-32ee7908c1bd	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221201	09:42:26	cd861cb5-8063-451b-8c9a-aa8d8d42503e	ReferenceError: avatarUrl is not defined	POST	/auth/register	http://localhost:3000
+20221201	09:53:04	0fff0817-e1b9-4b21-8c8a-01d2c9369e21	TypeError: Cannot create property 'protocols' on string ''	POST	/posts/create	http://localhost:3000
+20221201	09:54:38	18350831-0f63-4e0c-8317-a85f1515b17c	TypeError: Cannot read property 'originalname' of undefined	POST	/upload	http://localhost:3000
+20221201	10:40:05	242bfaac-73b5-46bd-bfaf-55190d49113a	ReferenceError: foundUser_doc is not defined	GET	/auth/refresh	http://localhost:3000
+20221201	10:40:52	c2c3f0a1-26bb-4bdd-aed8-664db728de7c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	10:40:58	43b008ea-244e-4dd8-ace1-9eb1e7b5df88	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	11:17:40	6d2686d5-a771-4caf-9a53-9fb967c025c4	CastError: Cast to [ObjectId] failed for value "[ { postId: '63885dbfdbc6832a7dcda3c1' } ]" (type string) at path "likes.0" because of "CastError"	POST	/posts/like/63885dbfdbc6832a7dcda3c1	http://localhost:3000
+20221201	14:31:53	d2c4e231-cd67-44f4-b96c-8334d4824faf	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"	GET	/posts/undefined	http://localhost:3000
+20221201	14:33:10	ad0b56ca-847f-43c8-8b2e-eac5c445589e	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"	GET	/posts/undefined	http://localhost:3000
+20221201	14:34:32	41d201e8-59cc-480c-9a48-3bd0f7f9f38b	ReferenceError: ObjectId is not defined	POST	/posts/like/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:34:36	fd208055-c4d5-42b1-b355-7b6e0d1a9edb	ReferenceError: ObjectId is not defined	POST	/posts/dislike/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:34:38	24b0a3ed-1645-4138-8bb8-5e094b3f641b	ReferenceError: ObjectId is not defined	POST	/posts/like/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:34:39	d522bc78-92d3-4c96-9d71-e69da178c0f8	ReferenceError: ObjectId is not defined	POST	/posts/dislike/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:07	b51f04ff-5198-4c61-b601-4789c322571f	ReferenceError: ObjectId is not defined	POST	/posts/like/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:09	debcce9f-2afa-4d11-bfef-9738aa2a169c	ReferenceError: ObjectId is not defined	POST	/posts/dislike/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:11	2c64ecbf-0c5b-402f-b4ec-10dc97cbbb7e	ReferenceError: ObjectId is not defined	POST	/posts/like/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:12	28b7603e-bffe-48b5-9328-fb0fb0df5c20	ReferenceError: ObjectId is not defined	POST	/posts/dislike/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:12	e2627c0a-e314-4364-8ca3-7f275fe14909	ReferenceError: ObjectId is not defined	POST	/posts/like/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:36:13	c8deeb6e-d44f-478b-a72a-88452ec7c055	ReferenceError: ObjectId is not defined	POST	/posts/dislike/63889f0d24c841c87123ca3d	http://localhost:3000
+20221201	14:50:40	fcfac605-1509-4251-8b27-99f812524b03	Error: Unauthorized user	POST	/posts/dislike/63889ae7c3a1baa16dcd687e	http://localhost:3000
+20221201	14:50:40	42a30e6a-8bde-44b2-8c0d-cb4630f3f46d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:01:02	9e61b6a9-e4e6-4ed9-adea-ae2682115395	Error: Unauthorized user	POST	/posts/like/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:01:02	b1f35c8f-1d58-49b0-bc53-dc725d747b5a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:01:12	3e7a131d-ed4c-4422-8968-0b2ad6938b35	Error: Unauthorized user	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:01:12	412cb81a-ed5b-475f-8bf5-78cd5a189c23	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:01:25	f35b5715-a7fd-4990-a6ff-bb48da8cdcab	Error: Unauthorized user	POST	/posts/like/63889ae7c3a1baa16dcd687e	http://localhost:3000
+20221201	15:01:25	bb62cbda-51a2-4266-91d4-96aba3b86d73	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:03:10	d4e32a35-16bc-4639-a341-3a8bff130444	Error: Unauthorized user	POST	/posts/like/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:03:10	365970d1-3eec-4cb8-84bd-71994abbe749	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:03:19	a26003c3-1cab-4139-a166-e5932f77ad59	Error: Unauthorized user	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:03:19	f27e2e2e-af7e-4132-b9b2-c278e979b3df	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	15:13:00	cba7f463-f3c9-4e76-b49e-ac8295892bbc	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:13:02	6c3508ff-df78-4fd6-b36f-b0c3207b703c	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:13:04	215417c1-f8f7-4b24-a4e1-2022c7fa5ac7	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	15:13:05	d7c2c81d-3bc9-4a17-ad43-cd9013293d69	MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: blog-app.users index: dislikes_1 dup key: { dislikes: ObjectId('63885de8dbc6832a7dcda3ca') }	POST	/posts/dislike/63885de8dbc6832a7dcda3ca	http://localhost:3000
+20221201	21:07:44	fb2d5244-3707-4cb7-b100-b1f0c090ffce	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221201	21:08:17	57640176-2767-4954-babd-2fdadb64066a	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221201	21:13:41	1926ae4c-97aa-4485-9610-ea5051a16829	ReferenceError: typeOf is not defined	POST	/posts/like/6388fbd71b846754689925c3	http://localhost:3000
+20221201	21:29:49	7c9499f3-8635-46a6-a69d-e3741467e822	TypeError: Cannot read property 'length' of null	POST	/posts/dislike/638900328ef9a6cbb7a94eab	http://localhost:3000
+20221203	19:26:40	92da64c9-4c49-427f-adae-3a361787634a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:26:58	95f29197-8119-47ea-8db6-724eb5b26d2a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:27:36	3d838b13-9504-400e-ad28-6d13e3d9622c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221203	19:28:35	7af96b18-2d7c-4981-9c9d-97383cc1bce8	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221203	19:28:42	a070d89f-3d3d-4b5b-aea4-a47e4e5d6aa0	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221203	19:32:31	b49081e6-9b11-4ddb-81f0-044a1a06cfd6	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221204	12:36:29	634d0ab3-5257-41b8-8cb3-a8468a72495d	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221204	13:28:46	ef848a8f-5ffc-4622-af7f-77813748aa3e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221204	13:30:07	edfb7042-517e-45f3-b4de-ccbcc82fb66e	MongoServerError: E11000 duplicate key error collection: blog-app.users index: likes_1 dup key: { likes: null }	POST	/auth/register	http://localhost:3000
+20221205	13:17:20	4767061a-c79e-413f-8386-a12b899874d0	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	13:17:47	1f1ceaef-fb73-4fc0-bff4-f42d10e6cb07	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221205	13:17:50	3a5de412-deb9-4b4c-a196-776a037b7112	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221205	13:23:14	190a2286-050f-4c2c-a6ef-0893917d8816	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221205	16:11:33	bc664ac5-534b-4c0e-9684-87c36ec1f6a1	Error: Unauthorized user	POST	/posts/create/comment/638b8df32907f85cdc79a0b0	http://localhost:3000
+20221205	16:11:33	5c055e28-775d-4429-a28b-1da3e4695cc9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:04	aa729140-a7db-4054-9ec2-f146119db70f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:26	4dce53b3-e641-4d70-8f21-b0565084d24a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221205	16:14:26	3464f6e0-eebe-4792-9d91-a65737eee5af	Error: Post not found	GET	/posts/638c77ddc3398c5282360010	http://localhost:3000
+20221205	16:44:10	9b789af0-d7fd-42a6-bc0a-2a0ce9a2b02f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:38:01	e4f41ffa-788b-4f4b-8a0c-af50dcafb75e	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221206	17:45:51	b96861b6-bd35-4e3b-9581-08694abba496	Error: Unauthorized user	POST	/posts/dislike/638dfceefbce6fc875cd4cb4	http://localhost:3000
+20221206	17:45:51	68245192-81f8-4c49-aced-c5741c120209	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:45:56	eb241b48-50a0-4955-8708-8a0e4eb59928	Error: Unauthorized user	POST	/posts/dislike/638dfceefbce6fc875cd4cb4	http://localhost:3000
+20221206	17:45:56	a44b10d5-04d0-4c48-b851-5f5497a03cc2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221206	17:57:41	4ecb1f21-433b-4f14-9be2-f8afde9d5ed8	Error: Unauthorized user	POST	/posts/create/comment/638e0166fbce6fc875cd4ce4	http://localhost:3000
+20221206	17:57:41	5203b931-e320-42e1-b240-c72e254a9c0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	11:23:27	1f9b5f3b-13e7-4da4-be65-d6bf1c07bfaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	12:26:17	7cff19fd-63f3-4377-9ff3-c2676a5035eb	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:27:28	bc9f0a6a-7b08-469b-8d47-c0bd42caf9c4	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:27:31	89e504ab-20a0-4dc1-8192-80dc0ca2c7c9	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:28:18	6e21f2b6-e07d-4315-b8a6-358896d6264b	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:28:20	00027fae-e20a-46c4-b11a-a9d518c33541	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:29:08	16c2d5be-1866-4dcb-a6cf-9ffb78c64ae9	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	12:29:25	bf46ac73-9272-45fe-816e-dda7d0491df5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	12:30:00	447d24ad-1605-47ae-b915-fbf3d01d7f46	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	13:03:52	1802af67-7e5c-4106-88db-cf310c16150b	CastError: Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Post"	GET	/posts/tags	undefined
+20221208	13:15:05	126844ce-926b-4b2d-85a4-f0a1766bec23	ReferenceError: data is not defined	GET	/posts/tags	undefined
+20221208	16:13:27	34dfb671-609e-4b06-9c97-1b8f7cd6df05	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:05	c643efa9-3c17-4a5d-8698-df18091f74b5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:19	2ce01641-f3d8-40c3-bd70-c639c7bfdbaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:18:56	41d06cb9-532f-46a7-93b9-9a96983bb61a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:19:51	d5c5ba4e-cf66-4588-a765-d6edff152c3d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:23:21	ccdeece9-14fa-40c4-a735-6f8234d27aaf	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:23:56	3ac20015-a96d-4681-9b34-7300538e9136	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:26:23	3871d6a0-d969-4192-986e-2c53379d277d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:35:01	51337fbb-7257-4e63-95a4-9f91deed5dfd	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:41:32	0cf4c4e9-7852-4af1-acf9-47b619db3fb8	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	16:50:00	21c9af8a-0a03-42f5-b540-9ea06b17bdfe	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221208	17:48:11	6154f9cd-eecb-4216-bdb9-8d530037e99e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:34:42	9587a9b8-eb53-424b-aa0b-2d20813138fe	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:40:16	75907e58-0672-4b3d-b0e4-6552e70d5d98	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:40:24	ec71adad-cba5-4f79-88c6-59e0e4f2b806	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:41:03	5a19a52a-f56b-4279-b3aa-086953991bf2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:42:05	8f8eebb3-1659-40a7-9ef7-678b08c0d9e6	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	09:45:43	fb0a61f8-515b-4569-89ed-7130b8e808e1	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	19:50:56	804a1edd-6445-4196-9761-980619c5fce3	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	19:51:12	0ec3f2af-3d18-4aed-aebc-d95befff0b63	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221209	19:51:19	32eb6e39-a41d-4454-9ec1-f2e401a84ff9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	09:59:28	4ecf258b-549d-4fa0-9c72-53432a382acd	Error: Required all fields	POST	/auth/login	http://localhost:3000
+20221210	19:50:13	ad3989c3-4a3e-4a0e-bde4-27d4784969e7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:07	f1ac4ec8-5466-4265-8c63-d38297ab4f8b	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:15	76ba54a6-42bb-40e2-a929-01e88d9cd033	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:52:22	527ff8cf-da42-48c3-81c1-72a0269b04af	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	19:54:01	d4c14ec6-2010-44cd-b0eb-639290385cf4	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:18:44	fb07c6be-d4dc-4726-b3e6-cd2e4bac0131	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:19:07	998b98f1-7c1b-4227-97b2-cb6067c9dd60	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:20:08	23449d7e-a0fc-41c0-a2c3-c70ce5d7575a	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:20:08	8ccdc56f-c712-4ced-a54d-4b8cfbf5c25a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:20:18	6129ffc3-c193-4635-a765-12425d0f8bf7	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:20:18	85e4f8f6-ae14-4359-af15-62a9441c63c7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221210	21:22:49	52c2826b-3b8a-40aa-bf30-ad98250a7d78	Error: Unauthorized user	POST	/posts/like/6394870d56a85e36ebba97aa	http://localhost:3000
+20221210	21:22:49	8d932da9-c702-439d-ab25-2724ff4da03c	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221211	21:25:01	ac404633-197d-4295-a2c6-f2625f76f928	StrictPopulateError: Cannot populate path `comments.user` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/posts/6394870d56a85e36ebba97aa	http://localhost:3000
+20221212	09:48:59	5206a269-7c10-44f1-b8af-c1ea0b0d0f62	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:04:19	bd50c3db-8d71-48c1-a86d-7e8f4cc1ef38	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:05:12	6690ef73-1e3a-444c-928a-fb74c8fffad0	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:05:38	92147908-7add-4f5d-95e4-83e85127deca	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:08:20	c450545a-841a-40d6-ad80-013ff01fbc47	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:08:36	14cec3b5-dc8d-4a09-ae3e-d6a983289016	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:10:11	90963e5a-d66a-40dd-86cb-0cdb426c584d	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:12:27	b25ed234-9639-488d-930a-44dd1647b132	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:12:43	bb8c1b65-8b3e-41b4-a628-74c5b0d0e9ea	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	10:22:38	7eba7612-50d7-4f5b-9571-eba5e9758b9b	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	21:42:11	7b00481d-35f8-4ea2-aabc-d4c61937fac5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221212	21:42:19	59ff1810-c224-483f-95f2-8dd96ab790fd	Error: ENOENT: no such file or directory, open 'G:\tmp\pc image.jpg'	POST	/upload	http://localhost:3000
+20221212	21:43:33	1997c02f-3611-447c-b2b5-84e214e900e3	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	07:16:39	7e8ac75e-2940-4a62-898c-3bdff1e2be9f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	14:59:09	c61c9779-1a02-402a-b76a-2040a1d5e423	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	14:59:42	ebe35b9d-1302-4a84-8b34-653b2486e812	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:04:47	d44fd58d-1856-4fe5-a6d5-b636d6b0b21e	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:06:25	d1cd03de-ef94-4ad6-ba25-3e5adc6794b2	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:17:15	e0c1a9ab-5de9-4eb2-b3eb-7aa2a73e1414	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:20:26	3966e59c-1c10-4de2-b747-0cb7c564631b	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:10	0dacc630-f8c1-4d50-91cb-2c9b8de17ade	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:28	a1641f02-80fe-42be-abd2-dfc635e7cf85	Error: Unauthorized user	POST	/posts/like/6396ed7e9c250c35d5934f21	http://localhost:3000
+20221213	15:23:28	148c6064-62fa-462e-8fdc-3e2c1002a4af	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:36	bfba3a7a-1517-4b56-bb99-ea60b5f3f39b	Error: Unauthorized user	POST	/posts/like/6396ed939c250c35d5934f28	http://localhost:3000
+20221213	15:23:36	248b368a-4489-495d-888b-14da816bf584	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:23:44	c4bdb23b-a47c-453c-8795-0f2b11294b16	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:19	d9c58474-004d-41e2-940d-462da60c5a1a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:22	2717f906-c494-4edb-8bdc-ede06d00edb1	Error: Unauthorized user	POST	/posts/like/6396ed939c250c35d5934f28	http://localhost:3000
+20221213	15:24:22	d5a33ede-95d9-4dfe-b6ba-31eb801604c5	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	15:24:24	940ca150-582f-42a2-a1f7-4c5ad454ab0a	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	17:40:26	4a3aab9c-0597-4212-be4c-526ca8896b14	TypeError: Cannot read property 'upload' of undefined	POST	/upload	http://localhost:3000
+20221213	17:45:24	cef420a4-c476-47ee-af11-7ca5d1b53c97	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	17:46:18	030322eb-0722-4792-b3cf-8acdfb0649d3	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	17:51:09	99cd1880-893f-45ec-8327-049a425f7fa5	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:20:04	5085b478-901f-4ec2-a3af-1e6f322d1a50	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	21:20:36	73a2a694-ba4d-4dd8-85bc-70c0c715c215	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:20:55	8e57d2c2-5bf2-44fb-94c2-069924ca9f96	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:21:46	6af46430-ef7d-40d4-8c07-395d5e1e079f	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:22:14	8c93a876-093c-47f0-a043-ce29e4a959fb	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:31:09	a28e6963-1589-49ac-8b10-eb32784c7571	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:31:42	f3b90844-1e32-42fb-bf12-e1b28e2f3b8e	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:34:16	b89d90a4-75f0-4dd7-b786-c6d7b9cdf5bc	TypeError: Cannot read property 'upload' of undefined	POST	/uploads	undefined
+20221213	21:36:39	4dc8c434-a4f5-4434-9e7f-bbd1f0238a97	TypeError: The "path" argument must be of type string. Received an instance of Object	POST	/uploads	undefined
+20221213	21:37:25	ea805405-3495-45c5-bdd9-bdf3d4ba82eb	TypeError: The "path" argument must be of type string. Received an instance of Object	POST	/uploads	undefined
+20221213	21:41:04	48dc77eb-8480-4b92-a2a5-fceb63ef1553	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221213	21:41:56	bba7cc75-9e84-4994-b0ca-a5ddfe3c2ff4	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:17:53	81f25c9e-77a6-448b-a19a-690442c8f205	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:42:26	19149da3-d392-463e-b650-7e6624c68838	Error: User or email already exist	POST	/auth/register	http://localhost:3000
+20221214	15:45:14	041b4abe-df61-46d3-b498-9f6d5565f1a2	Error: Unauthorized user	POST	/posts/like/6399d13143331f1bebf0ed79	http://localhost:3000
+20221214	15:45:14	396e05bf-0683-42b4-a4fc-f38505a783d9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:45:20	41622017-b5d7-4dee-bc44-cdcba7c6fecb	Error: Unauthorized user	POST	/posts/dislike/6399d13143331f1bebf0ed79	http://localhost:3000
+20221214	15:45:20	fb1456ba-c5fc-49f6-a861-623dd7163884	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	15:49:03	77612b2d-02e5-4625-9bbf-6cc6f1cccf60	Error: User does not exist	POST	/auth/login	http://localhost:3000
+20221214	15:49:07	b8d774c5-2a1a-4251-a932-66b0b72ab34d	Error: Invalid password	POST	/auth/login	http://localhost:3000
+20221214	21:50:50	75542674-671c-45c1-9f23-dce4156f4b45	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:51:22	6e88f136-6cde-48f7-9982-5ac56bfeed91	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:51:35	e6d6767f-e59b-4df6-9a71-26ebdd7e85ef	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:52:11	b65e2654-a90d-4090-ade1-4beac3034840	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:52:31	b1bd262b-1539-4c5b-8249-f7ec0882f505	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:53:07	cd6b5440-8674-49a9-a74c-da22dc68283f	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:54:53	da569593-a177-4e88-b160-472475e42bc9	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	21:56:33	bd1be213-c1e9-4759-8d38-4998cd2feea7	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	22:02:42	d964b633-6e78-40d8-a6b5-c2b139c71249	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221214	22:39:57	cade3529-b71a-4044-9002-b0f0fc699734	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:36:19	a828014e-1836-45fb-a2d0-2910e3497b70	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:37:45	e1e07af2-f3ec-49a3-843c-c990e3068020	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:37:49	3074d78f-6f5b-474b-ab2a-60a7d3b9de17	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:39:26	66de7282-8779-49de-bce6-57327f6d5428	Error: Unauthorized user	GET	/auth/refresh	http://localhost:3000
+20221215	11:41:59	ac523136-56f4-4664-a09d-20afdbb84e02	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:42:09	d9510d5e-10aa-4aa7-bc14-9b14e072b25f	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:42:52	91f58ed7-c5f0-4c43-998b-72f33bd9a77f	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:20	99bcb13f-1a4d-45e5-bb8c-8249bbd5540c	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:24	c8395e65-eb4b-4d2e-936a-c9884f753ec6	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:43:37	438bf978-59b5-4b5d-a7f4-4ab5dfe7ab23	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:44:36	9ed233b5-3f6d-44f6-88e4-1654fc73f85d	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:44:52	8b8e005a-cd5c-4663-b140-458ec66ec437	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:45:34	0255a36c-01ee-41d9-88a4-9a050bc1aa96	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	11:45:42	14ee867c-75b6-401d-afed-a3d058c90163	Error: Unauthorized user	POST	/auth/refresh	http://localhost:3000
+20221215	17:16:20	10724684-a2d7-49d8-9a8d-d733a23084f6	Error: Unauthorized user	POST	/posts/create	http://localhost:3000
+20221215	17:19:30	1c8104a3-fa2d-4952-974d-063ae3c34274	Error: Unauthorized user	POST	/posts/create	http://localhost:3000

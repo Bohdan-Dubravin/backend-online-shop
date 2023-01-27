@@ -3,17 +3,23 @@ import ApiError from '../utils/apiError.js';
 
 export default async function (req, res, next) {
   try {
-    const authorizationHeader = req.headers.authorization;
-    if (!authorizationHeader) {
+    const authorization = req.body.token;
+
+    if (!authorization) {
       return next(ApiError.UnauthorizedError());
     }
 
-    const accessToken = authorizationHeader.split(' ')[1];
-    if (!accessToken) {
-      return next(ApiError.UnauthorizedError());
-    }
+    // const authorizationHeader = req.headers.authorization;
+    // if (!authorizationHeader) {
+    //   return next(ApiError.UnauthorizedError());
+    // }
 
-    const userData = await tokenService.validateAccessToken(accessToken);
+    // const accessToken = authorizationHeader.split(' ')[1];
+    // if (!accessToken) {
+    //   return next(ApiError.UnauthorizedError());
+    // }
+
+    const userData = await tokenService.validateAccessToken(authorization);
     if (!userData) {
       return next(ApiError.UnauthorizedError());
     }
